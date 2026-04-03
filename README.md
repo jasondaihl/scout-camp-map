@@ -35,7 +35,7 @@ Add a new feature to `data/camps.geojson`:
 }
 ```
 
-- `type` must be `"council_camp"` or `"high_adventure"`
+- `type` must be `"council_camp"`, `"high_adventure"`, or `"council_high_adventure"`
 - `council`, `city`, `website`, and `description` are optional
 - Coordinates are `[longitude, latitude]` (GeoJSON standard)
 

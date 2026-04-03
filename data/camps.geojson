@@ -69,7 +69,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-123.9580, 45.1542]
+        "coordinates": [-123.958, 45.1542]
       },
       "properties": {
         "name": "Camp Meriwether",
@@ -143,6 +143,22 @@
         "state": "UT",
         "website": null,
         "description": "High-mountain Scout camp in the Uinta Mountains of Utah at over 10,000 feet elevation."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.000762, 30.187759]
+      },
+      "properties": {
+        "name": "Swamp Base",
+        "type": "council_high_adventure",
+        "council": "Evangeline Area Council",
+        "city": "Lafayette",
+        "state": "LA",
+        "website": "https://www.swampbasebsa.org",
+        "description": "Louisiana Swamp Base is a national conservation and high adventure recreation program created in 2010 by the Evangeline Area Council, Scouting America to commemorate the Centennial of Scouting while also making a 100 year commitment to annually immerse thousands of youth in the environment and culture of the Atchafalaya Swamp."
       }
     }
   ]

@@ -26,7 +26,7 @@ Live at: https://jasondaihl.github.io/camp-mapper/
 
 ## Camp Data Format
 
-Each camp is a GeoJSON Feature in `data/camps.geojson` with coordinates as `[longitude, latitude]`. Required properties: `name`, `type` (`"council_camp"` or `"high_adventure"`). Optional: `council`, `city`, `state`, `website`, `description`.
+Each camp is a GeoJSON Feature in `data/camps.geojson` with coordinates as `[longitude, latitude]`. Required properties: `name`, `type` (`"council_camp"`, `"high_adventure"`, or `"council_high_adventure"`). Optional: `council`, `city`, `state`, `website`, `description`.
 
 ## Marker Styles
 

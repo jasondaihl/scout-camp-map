@@ -27,6 +27,10 @@ body {
   background-color: #D4A017;
 }
 
+.camp-popup .type-badge.council-high-adventure {
+  background-color: #4A90E2;
+}
+
 .camp-popup .type-badge.council-camp {
   background-color: #2E7D32;
 }
