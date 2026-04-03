@@ -101,22 +101,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-111.7585, 40.5961]
-      },
-      "properties": {
-        "name": "Camp Steiner",
-        "type": "council_camp",
-        "council": "Great Salt Lake Council",
-        "city": "Heber City",
-        "state": "UT",
-        "website": null,
-        "description": "High-mountain Scout camp in the Uinta Mountains of Utah at over 10,000 feet elevation."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [-92.000762, 30.187759]
       },
       "properties": {
