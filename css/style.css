@@ -27,6 +27,19 @@ body {
   margin: 0;
   font-size: 18px;
   font-weight: 600;
+  flex: 1;
+}
+
+.header-github {
+  color: #fff;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.header-github:hover {
+  opacity: 1;
 }
 
 #map {
