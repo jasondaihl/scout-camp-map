@@ -17,7 +17,7 @@
     },
     council_high_adventure: {
       radius: 8,
-      fillColor: "#4A90E2",
+      fillColor: "#9E9E9E",
       color: "#333",
       weight: 1,
       fillOpacity: 0.85,
@@ -113,7 +113,7 @@
       " National High Adventure Base" +
       "</div>" +
       '<div class="legend-item">' +
-      '<span class="legend-circle" style="width:14px;height:14px;background:#4A90E2;"></span>' +
+      '<span class="legend-circle" style="width:14px;height:14px;background:#9E9E9E;"></span>' +
       " Council High Adventure Base" +
       "</div>" +
       '<div class="legend-item">' +
