@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.2747, 36.3953]
+      },
+      "properties": {
+        "name": "Philmont Scout Ranch",
+        "type": "high_adventure",
+        "council": null,
+        "city": "Cimarron",
+        "state": "NM",
+        "website": "https://www.philmontscoutranch.org",
+        "description": "Scouting America's premier high adventure base covering 140,000 acres in the Rocky Mountains of northeastern New Mexico."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.8671, 47.9032]
+      },
+      "properties": {
+        "name": "Northern Tier High Adventure",
+        "type": "high_adventure",
+        "council": null,
+        "city": "Ely",
+        "state": "MN",
+        "website": "https://www.ntier.org",
+        "description": "Canoeing and wilderness adventures in the Boundary Waters of northern Minnesota and Canada."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.5886, 24.9465]
+      },
+      "properties": {
+        "name": "Florida Sea Base",
+        "type": "high_adventure",
+        "council": null,
+        "city": "Islamorada",
+        "state": "FL",
+        "website": "https://www.bsaseabase.org",
+        "description": "Aquatic high adventure programs including sailing, scuba diving, and kayaking in the Florida Keys."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.9987, 37.9137]
+      },
+      "properties": {
+        "name": "Summit Bechtel Reserve",
+        "type": "high_adventure",
+        "council": null,
+        "city": "Glen Jean",
+        "state": "WV",
+        "website": "https://www.summitbsa.org",
+        "description": "Home of the National Scout Jamboree, offering zip lines, mountain biking, skateboarding, and more in southern West Virginia."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-123.9580, 45.1542]
+      },
+      "properties": {
+        "name": "Camp Meriwether",
+        "type": "council_camp",
+        "council": "Cascade Pacific Council",
+        "city": "Tillamook",
+        "state": "OR",
+        "website": null,
+        "description": "Oceanfront Scout camp on the Oregon coast near Tillamook Head."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.4975, 40.6331]
+      },
+      "properties": {
+        "name": "Camp Treasure Island",
+        "type": "council_camp",
+        "council": "Greater Pittsburgh Council",
+        "city": "Petersburg",
+        "state": "PA",
+        "website": null,
+        "description": "Island camp on the Allegheny River offering aquatics and traditional Scouting programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.5977, 34.7865]
+      },
+      "properties": {
+        "name": "Camp Rainey Mountain",
+        "type": "council_camp",
+        "council": "Northeast Georgia Council",
+        "city": "Clayton",
+        "state": "GA",
+        "website": null,
+        "description": "Mountain camp in the foothills of the Blue Ridge Mountains in northeast Georgia."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.6526, 43.5453]
+      },
+      "properties": {
+        "name": "Camp Upham Woods",
+        "type": "council_camp",
+        "council": "Glacier's Edge Council",
+        "city": "Wisconsin Dells",
+        "state": "WI",
+        "website": null,
+        "description": "Year-round outdoor education center along the Wisconsin River near the Dells."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.7585, 40.5961]
+      },
+      "properties": {
+        "name": "Camp Steiner",
+        "type": "council_camp",
+        "council": "Great Salt Lake Council",
+        "city": "Heber City",
+        "state": "UT",
+        "website": null,
+        "description": "High-mountain Scout camp in the Uinta Mountains of Utah at over 10,000 feet elevation."
+      }
+    }
+  ]
+}
