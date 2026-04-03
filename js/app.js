@@ -60,11 +60,15 @@
         "</div>";
     }
 
-    var location = [];
-    if (props.city) location.push(props.city);
-    if (props.state) location.push(props.state);
-    if (location.length) {
-      html += '<div class="detail">' + location.join(", ") + "</div>";
+    if (props.address) {
+      html += '<div class="detail">' + props.address + "</div>";
+    } else {
+      var location = [];
+      if (props.city) location.push(props.city);
+      if (props.state) location.push(props.state);
+      if (location.length) {
+        html += '<div class="detail">' + location.join(", ") + "</div>";
+      }
     }
 
     if (props.website) {
