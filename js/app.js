@@ -106,11 +106,11 @@
       "<h4>Camp Types</h4>" +
       '<div class="legend-item">' +
       '<span class="legend-circle" style="width:16px;height:16px;background:#D4A017;"></span>' +
-      " High Adventure Base" +
+      " National High Adventure Base" +
       "</div>" +
       '<div class="legend-item">' +
       '<span class="legend-circle" style="width:14px;height:14px;background:#4A90E2;"></span>' +
-      " Council High Adventure" +
+      " Council High Adventure Base" +
       "</div>" +
       '<div class="legend-item">' +
       '<span class="legend-circle" style="width:12px;height:12px;background:#2E7D32;"></span>' +
