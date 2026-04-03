@@ -1,0 +1,25 @@
+{
+  "name": "camp-mapper",
+  "version": "1.0.0",
+  "description": "Interactive map of Scouting America council camps and high adventure bases, built with [Leaflet](https://leafletjs.com/) and OpenStreetMap.",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -l 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasondaihl/camp-mapper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jasondaihl/camp-mapper/issues"
+  },
+  "homepage": "https://github.com/jasondaihl/camp-mapper#readme",
+  "devDependencies": {
+    "serve": "^14.2.6"
+  }
+}

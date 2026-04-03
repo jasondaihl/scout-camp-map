@@ -7,7 +7,7 @@ Interactive map of Scouting America council camps and high adventure bases, buil
 A local HTTP server is required (`fetch` doesn't work over `file://`):
 
 ```bash
-python3 -m http.server
+npm start
 ```
 
 Then open [http://localhost:8000](http://localhost:8000).
