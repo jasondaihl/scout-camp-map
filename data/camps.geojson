@@ -75,26 +75,10 @@
         "name": "Camp Meriwether",
         "type": "council_camp",
         "council": "Cascade Pacific Council",
-        "city": "Tillamook",
+        "city": "Cloverdale",
         "state": "OR",
-        "website": null,
+        "website": "https://cpcscouting.org/project/camp-meriwether/",
         "description": "Oceanfront Scout camp on the Oregon coast near Tillamook Head."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-79.4975, 40.6331]
-      },
-      "properties": {
-        "name": "Camp Treasure Island",
-        "type": "council_camp",
-        "council": "Greater Pittsburgh Council",
-        "city": "Petersburg",
-        "state": "PA",
-        "website": null,
-        "description": "Island camp on the Allegheny River offering aquatics and traditional Scouting programs."
       }
     },
     {
@@ -109,24 +93,8 @@
         "council": "Northeast Georgia Council",
         "city": "Clayton",
         "state": "GA",
-        "website": null,
+        "website": "https://www.nega-bsa.org/CRM",
         "description": "Mountain camp in the foothills of the Blue Ridge Mountains in northeast Georgia."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-89.6526, 43.5453]
-      },
-      "properties": {
-        "name": "Camp Upham Woods",
-        "type": "council_camp",
-        "council": "Glacier's Edge Council",
-        "city": "Wisconsin Dells",
-        "state": "WI",
-        "website": null,
-        "description": "Year-round outdoor education center along the Wisconsin River near the Dells."
       }
     },
     {
