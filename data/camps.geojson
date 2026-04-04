@@ -431,6 +431,108 @@
         "website": "https://lhcbsa.org/tunnel-mill-scout-reservation/",
         "description": "A Scout reservation tucked inside an oxbow bend in Fourteen Mile Creek near Charlestown, Indiana, offering summer resident camp and year-round Scouting programs."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.1343, 37.6366]
+      },
+      "properties": {
+        "name": "Pine Ridge Scout Camp",
+        "type": "council_camp",
+        "council": "Greater St. Louis Area Council",
+        "address": "1139 Pine Ridge Lane, Makanda, IL 62958",
+        "city": "Makanda",
+        "state": "IL",
+        "website": "https://stlbsa.org/properties/camp-pine-ridge/",
+        "description": "Established on 150 acres in the Shawnee National Forest along the shores of Little Grassy Lake, surrounded by the Crab Orchard National Wildlife Refuge. Offers kayaking, canoeing, fishing, archery, climbing, and rappelling."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.226, 38.9436]
+      },
+      "properties": {
+        "name": "Camp Warren Levis",
+        "type": "council_camp",
+        "council": "Greater St. Louis Area Council",
+        "address": "5500 Boy Scout Lane, Godfrey, IL 62035",
+        "city": "Godfrey",
+        "state": "IL",
+        "website": "https://stlbsa.org/properties/camp-warren-levis/",
+        "description": "A 285-acre camp just north of Alton, IL featuring a private lake, seasonal swimming pool, 11 campsites, archery and shooting ranges, climbing tower, and hiking trails."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.3152, 40.1929]
+      },
+      "properties": {
+        "name": "Saukenauk Scout Reservation",
+        "type": "council_camp",
+        "council": "Mississippi Valley Council",
+        "address": "2948 E 1000th St, Mendon, IL 62351",
+        "city": "Mendon",
+        "state": "IL",
+        "website": "https://mvcscouting.org/our-camps/saukenauk-scout-reservation/",
+        "description": "A 602-acre reservation located 25 miles north of Quincy, divided into four camp sections, offering year-round outdoor programming."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.6811, 39.7042]
+      },
+      "properties": {
+        "name": "Camp Illinek",
+        "type": "council_camp",
+        "council": "Abraham Lincoln Council",
+        "address": "6610 Iron Bridge Road, Chatham, IL 62629",
+        "city": "Chatham",
+        "state": "IL",
+        "website": "https://www.alincolnscouting.org/facilities-1",
+        "description": "Established in 1939 on 80 acres on Lake Springfield, offering year-round camping, Cub Scout summer programs, canoes, kayaks, archery, and crafts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.3574, 40.5394]
+      },
+      "properties": {
+        "name": "Camp Eastman",
+        "type": "council_camp",
+        "council": "Mississippi Valley Council",
+        "address": "750 E. County Road 1780, Nauvoo, IL 62354",
+        "city": "Nauvoo",
+        "state": "IL",
+        "website": "https://mvcscouting.org/our-camps/camp-eastman/",
+        "description": "Founded in 1926, a 142-acre camp on the Mississippi River south of Nauvoo featuring 11 campsites, a swimming pool, creek for small boat instruction, and river access."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.0486, 39.3687]
+      },
+      "properties": {
+        "name": "Camp Bunn",
+        "type": "council_camp",
+        "council": "Abraham Lincoln Council",
+        "address": "5259 Camp Lane, Hettick, IL 62649",
+        "city": "Hettick",
+        "state": "IL",
+        "website": "https://www.alincolnscouting.org/camp-bunn",
+        "description": "Established in 1972, a nationally accredited 600-acre camp featuring Lake Freesen, climbing and ropes courses, shooting sports, an observatory, and year-round residential programs."
+      }
     }
   ]
 }
