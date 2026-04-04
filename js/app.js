@@ -65,8 +65,9 @@
 
     if (props.council) {
       html +=
-        '<div class="detail"><strong>Council:</strong> ' +
+        '<div class="detail"><strong> ' +
         props.council +
+        " </strong>" +
         "</div>";
     }
 
