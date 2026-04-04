@@ -48,9 +48,23 @@ body {
   padding: 0;
 }
 
+.camp-popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
 .camp-popup h3 {
   margin: 0 0 6px 0;
   font-size: 15px;
+}
+
+.camp-logo {
+  max-height: 40px;
+  max-width: 40px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .camp-popup .type-badge {

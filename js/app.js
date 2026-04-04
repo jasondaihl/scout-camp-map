@@ -45,7 +45,12 @@
           ? "council-high-adventure"
           : "council-camp";
     var html = '<div class="camp-popup">';
+    html += '<div class="camp-popup-header">';
     html += "<h3>" + props.name + "</h3>";
+    if (props.logo) {
+      html += '<img class="camp-logo" src="' + props.logo + '" alt="' + props.name + ' logo">';
+    }
+    html += "</div>";
     html +=
       '<span class="type-badge ' +
       typeClass +
