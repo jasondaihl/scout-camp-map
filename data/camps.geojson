@@ -1176,6 +1176,111 @@
         "website": "https://www.camptomahawk.org/",
         "description": "Northern Star Council Scout reservation near Birchwood, Wisconsin, offering multiple summer camp programs in the Northwoods."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.2074, 48.1355]
+      },
+      "properties": {
+        "name": "Camp Cowles",
+        "type": "council_camp",
+        "council": "Inland Northwest Council",
+        "address": "4161 North Shore Diamond Lake Rd, Newport, WA 99156",
+        "website": "https://www.nwscouts.org/",
+        "description": "Over 900-acre Scout reservation on Diamond Lake, serving the Inland Northwest Council since the 1920s with four camps and year-round programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.8878, 47.9762]
+      },
+      "properties": {
+        "name": "Camp Edward",
+        "type": "council_camp",
+        "council": "Chief Seattle Council",
+        "address": "25600 Monroe Camp Rd, Snohomish, WA 98290",
+        "website": "https://scoutingseattle.org/camp-edward/",
+        "description": "Chief Seattle Council Scout camp founded in 1967 in Snohomish, Washington, offering Cub Scout resident camp and year-round outdoor programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.8649, 47.7456]
+      },
+      "properties": {
+        "name": "Camp Parsons",
+        "type": "council_camp",
+        "council": "Chief Seattle Council",
+        "address": "970 Bee Mill Rd, Brinnon, WA 98320",
+        "website": "https://www.campparsons.org/",
+        "description": "Chief Seattle Council's Scouts BSA resident camp on Hood Canal near Brinnon, Washington, offering summer camp and year-round camping."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.9027, 47.9629]
+      },
+      "properties": {
+        "name": "Camp Pigott",
+        "type": "council_camp",
+        "council": "Chief Seattle Council",
+        "address": "24225 Woods Creek Rd, Snohomish, WA 98290",
+        "website": "https://scoutingseattle.org/camp-pigott/",
+        "description": "Chief Seattle Council Scout camp in Snohomish offering Scouts BSA summer camp, shooting sports, and year-round outdoor programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.5343, 46.9719]
+      },
+      "properties": {
+        "name": "Camp Sheppard",
+        "type": "council_camp",
+        "council": "Chief Seattle Council",
+        "address": "65301 SR 410 E, Enumclaw, WA 98022",
+        "website": "https://scoutingseattle.org/camp-sheppard/",
+        "description": "Chief Seattle Council Scout camp in the Cascade Mountains near Mount Rainier, offering winter camp and year-round outdoor adventure programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-123.1255, 47.0483]
+      },
+      "properties": {
+        "name": "Camp Thunderbird",
+        "type": "council_camp",
+        "council": "Pacific Harbors Council",
+        "address": "11740 Summit Lake Rd NW, Olympia, WA 98502",
+        "website": "http://campthunderbird.net/",
+        "description": "Pacific Harbors Council Scout camp near Summit Lake in Olympia, Washington, offering summer resident camp and year-round programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.1805, 48.3869]
+      },
+      "properties": {
+        "name": "Fire Mountain Scout Camp",
+        "type": "council_camp",
+        "council": "Mount Baker Council",
+        "address": "26027 Walker Valley Rd, Mount Vernon, WA 98274",
+        "website": "https://firemtn.org/",
+        "description": "Mount Baker Council Scout camp near Mount Vernon, Washington, offering Scouts BSA summer camp and year-round outdoor programs."
+      }
     }
   ]
 }
