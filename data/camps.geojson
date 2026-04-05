@@ -2106,6 +2106,22 @@
         "website": "https://www.texastrailsbsa.com/camping/camp-tonkawa/61684",
         "description": "Texas Trails Council Scout camp 12 miles south of Abilene near Buffalo Gap, adjacent to Abilene State Park."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-115.1523, 36.0865]
+      },
+      "properties": {
+        "name": "Engelstad Scout Park",
+        "type": "council_camp",
+        "council": "Las Vegas Area Council",
+        "city": "Las Vegas",
+        "state": "NV",
+        "website": "https://www.scoutinglvac.org/engelstad-scout-park/",
+        "description": "Las Vegas Area Council Scout park located on S Paradise Road, serving as the council's Scouting resource center and outdoor activity site."
+      }
     }
   ]
 }
