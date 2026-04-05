@@ -888,6 +888,132 @@
         "website": "https://www.lasallecouncilbsa.org/camptamarack",
         "description": "A 500-acre reservation with two glacial lakes just south of Jones, Michigan, operated by the LaSalle Council. Features Camp Tamarack, Camp Will Welber, and primitive camping areas."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1482,
+          44.398
+        ]
+      },
+      "properties": {
+        "name": "Camp Bradley",
+        "type": "council_camp",
+        "council": "Mountain West Council",
+        "address": "National Forest Development Road 158, Stanley, ID 83278",
+        "website": "https://www.mountainwestcouncil.org/bradley-camp",
+        "description": "A camp near the base of the Sawtooth Mountains, approximately 18 miles north of Stanley at 6,591 feet elevation, operated by the Mountain West Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7752,
+          47.5992
+        ]
+      },
+      "properties": {
+        "name": "Camp Easton",
+        "type": "council_camp",
+        "council": "Inland Northwest Council",
+        "address": "23516 S ID-97, Harrison, ID 83833",
+        "website": "https://www.nwscouts.org/camping/north-idaho-high-adventure-program/23243",
+        "description": "Located in Gotham Bay on the east side of Lake Coeur d'Alene, operated by the Inland Northwest Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7752,
+          47.5992
+        ]
+      },
+      "properties": {
+        "name": "North Idaho High Adventure Base",
+        "type": "council_high_adventure",
+        "council": "Inland Northwest Council",
+        "address": "23516 S ID-97, Harrison, ID 83833",
+        "website": "https://www.nwscouts.org/camping/north-idaho-high-adventure-program/23243",
+        "description": "A council high adventure base located at Camp Easton on Lake Coeur d'Alene, operated by the Inland Northwest Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.6579,
+          46.9415
+        ]
+      },
+      "properties": {
+        "name": "Camp Grizzly",
+        "type": "council_camp",
+        "council": "Inland Northwest Council",
+        "address": "1101 Palouse River Rd, Harvard, ID 83834",
+        "website": "https://www.nwscouts.org/campgrizzly",
+        "description": "A camp along the Palouse River, 12 miles east of Potlatch, operated by the Inland Northwest Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2413,
+          43.3633
+        ]
+      },
+      "properties": {
+        "name": "Camp Little Lemhi",
+        "type": "council_camp",
+        "council": "Grand Teton Council",
+        "address": "1158 Snake River Road, Palisades, ID 83428",
+        "website": "https://www.tetonscouts.org/camps/little-lemhi/59487",
+        "description": "Nestled among tall pines in Yeaman Creek Canyon just below Palisades Dam, above the banks of the Snake River, operated by the Grand Teton Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.3711,
+          44.4244
+        ]
+      },
+      "properties": {
+        "name": "Island Park Scout Camp",
+        "type": "council_camp",
+        "council": "Grand Teton Council",
+        "address": "4355 Griffel Rd, Island Park, ID 83429",
+        "website": "https://www.tetonscouts.org/island-park-program-information/60462",
+        "description": "Located approximately 9 miles southeast of Island Park, operated by the Grand Teton Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.24,
+          45.39
+        ]
+      },
+      "properties": {
+        "name": "Salmon River High Adventure Base (SRHAB)",
+        "type": "council_high_adventure",
+        "council": "Mountain West Council",
+        "address": "1276 Salmon River Rd, North Fork, ID 83466",
+        "website": "https://www.mountainwestcouncil.org/srhab",
+        "description": "A high adventure base on the Salmon River, 35 miles north of Salmon and 12.5 miles west of North Fork, offering whitewater rafting and wilderness experiences."
+      }
     }
   ]
 }
