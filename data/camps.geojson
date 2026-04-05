@@ -1014,6 +1014,78 @@
         "website": "https://www.mountainwestcouncil.org/srhab",
         "description": "A high adventure base on the Salmon River, 35 miles north of Salmon and 12.5 miles west of North Fork, offering whitewater rafting and wilderness experiences."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.6795,
+          22.1064
+        ]
+      },
+      "properties": {
+        "name": "Camp Alan Faye",
+        "type": "council_camp",
+        "council": "Aloha Council",
+        "address": "Kokee State Park Rd, Waimea, HI 96746",
+        "website": "https://www.scoutinghawaii.org/camps/kauai/",
+        "description": "Located at 2,400 feet elevation in Kokee State Park on Kauai, adjacent to Waimea Canyon. The 29-acre camp features endangered species, native Hawaiian trees, and access to state hiking trails."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.5226,
+          20.0709
+        ]
+      },
+      "properties": {
+        "name": "Camp Honokaia",
+        "type": "council_camp",
+        "council": "Aloha Council",
+        "address": "46-0306 Mamalahoa Hwy, Honokaa, HI 96727",
+        "website": "https://www.scoutinghawaii.org/camps/hawaii-island/",
+        "description": "Located on 210 acres between Honokaa and Waimea above Waipio Valley on the Big Island. Dense tropical rain forest setting with ecology-conservation programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.5339,
+          20.9543
+        ]
+      },
+      "properties": {
+        "name": "Camp Maluhia",
+        "type": "council_camp",
+        "council": "Aloha Council",
+        "address": "3450 Kahekili Hwy, Wailuku, HI 96793",
+        "website": "https://www.scoutinghawaii.org/camps/maui/",
+        "description": "Established in 1937 on Maui's windward slopes with panoramic Pacific Ocean views. Accommodates up to 200 campers and features cabins, dining hall, riflery range, and swimming pool."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.0262,
+          21.6456
+        ]
+      },
+      "properties": {
+        "name": "Camp Pupukea",
+        "type": "council_camp",
+        "council": "Aloha Council",
+        "address": "59-780 Pupukea Rd, Haleiwa, HI 96712",
+        "website": "https://www.scoutinghawaii.org/camps/oahu/",
+        "description": "Flagship camp of the Aloha Council on 70 acres on Oahu's North Shore. Features the Weinberg Lodge, swimming pool, riflery range, and hosts summer camp, Winter Summit, and NYLT."
+      }
     }
   ]
 }
