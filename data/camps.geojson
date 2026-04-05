@@ -1791,6 +1791,81 @@
         "website": "https://etacbsa.org/",
         "description": "Opened in 1964 on Lake Murvaul in the piney woods of East Texas, featuring 14 campsites, COPE course, climbing walls, and waterfront with boating."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-149.4082, 61.4241]
+      },
+      "properties": {
+        "name": "Camp Gorsuch",
+        "type": "council_camp",
+        "council": "Great Alaska Council",
+        "address": "22700 Camp Gorsuch Rd, Chugiak, AK 99567",
+        "website": "https://scoutingalaska.org/camping/camp-gorsuch/",
+        "description": "Great Alaska Council Scout camp on Mirror Lake at the Rasmuson Scout Reservation, offering week-long resident camp for Scouts BSA and Cub Scouts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-150.2436, 62.5540]
+      },
+      "properties": {
+        "name": "Denali High Adventure Scout Base",
+        "type": "council_high_adventure",
+        "council": "Great Alaska Council",
+        "address": "Mile 133 N Parks Hwy, Trapper Creek, AK 99683",
+        "website": "https://scoutingalaska.org/camping/denali-high-adventure-scout-base/",
+        "description": "A 2,000-acre high adventure base at mile 133 on the Parks Highway, the newest camp property of the Great Alaska Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-134.7957, 58.5216]
+      },
+      "properties": {
+        "name": "Eagle River Scout Camp",
+        "type": "council_camp",
+        "council": "Great Alaska Council",
+        "address": "Herbert River Rd, Juneau, AK 99801",
+        "website": "https://scoutingalaska.org/camping/eagle-river-scout-camp/",
+        "description": "A 262-acre Scout camp on Lynn Canal, 28 miles north of Juneau, offering Scouts BSA and Cub Scout summer programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-146.6920, 64.2970]
+      },
+      "properties": {
+        "name": "Lost Lake Scout Camp",
+        "type": "council_camp",
+        "council": "Midnight Sun Council",
+        "address": "12660 Lost Lake Rd, Salcha, AK 99714",
+        "website": "https://midnightsunbsa.org/lost-lake-scout-camp/",
+        "description": "Midnight Sun Council Scout camp on Lost Lake, about 58 miles south of Fairbanks, offering resident summer camp and year-round rentals."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-147.7164, 64.8378]
+      },
+      "properties": {
+        "name": "Northern Lights High Adventure Base",
+        "type": "council_high_adventure",
+        "council": "Midnight Sun Council",
+        "address": "1400 Gillam Way, Fairbanks, AK 99701",
+        "website": "https://alaskahighadventure.com/",
+        "description": "Midnight Sun Council high adventure base offering wilderness treks including river trips, backpacking, and dog mushing across Interior Alaska."
+      }
     }
   ]
 }
