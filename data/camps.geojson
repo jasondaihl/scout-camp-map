@@ -498,6 +498,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -89.0798,
+          39.389
+        ]
+      },
+      "properties": {
+        "name": "Rhodes-France Scout Reservation",
+        "type": "council_camp",
+        "council": "Greater St. Louis Area Council",
+        "address": "815 North 500 East Road, Pana, IL 62557",
+        "website": "https://stlbsa.org/properties/rhodes-france-scout-reservation/",
+        "description": "A 640-acre camp southeast of Pana, IL featuring 13 campsites, 2 lakes, an in-ground swimming pool, shooting sports facilities, and a trading post."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -91.3152,
           40.1929
         ]
@@ -563,6 +581,78 @@
         "address": "5259 Camp Lane, Hettick, IL 62649",
         "website": "https://www.alincolnscouting.org/camp-bunn",
         "description": "Established in 1972, a nationally accredited 600-acre camp featuring Lake Freesen, climbing and ropes courses, shooting sports, an observatory, and year-round residential programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.2477,
+          42.653
+        ]
+      },
+      "properties": {
+        "name": "Camp C.S. Klaus",
+        "type": "council_camp",
+        "council": "Northeast Iowa Council",
+        "address": "28157 Horseshoe Rd, Colesburg, IA 52035",
+        "website": "https://scoutsiowa.org/camping/scout-camp/",
+        "description": "A 200-acre camp in a wooded valley near Colesburg featuring a 14-acre lake, scenic waterfall, eight campsites, platform tents, a 40-foot climbing tower, COPE course, and the Munter Lodge Dining Center."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.416,
+          42.6896
+        ]
+      },
+      "properties": {
+        "name": "Camp Ingawanis (Ingawanis Adventure Base)",
+        "type": "council_camp",
+        "council": "Winnebago Council",
+        "address": "2482 Grand Avenue, Waverly, IA 50677",
+        "website": "https://www.winnebagocouncil.org/camping/iab/",
+        "description": "A camp along the Cedar River near Waverly operated by the Winnebago Council, serving Cub Scouts, Scouts BSA, and Venturing Crews with year-round outdoor programming."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9125,
+          41.9478
+        ]
+      },
+      "properties": {
+        "name": "Camp Mitigwa",
+        "type": "council_camp",
+        "council": "Mid-Iowa Council",
+        "address": "1820 Magnolia Rd, Woodward, IA 50276",
+        "website": "https://campiowa.org/mitigwa-scout-reservation/",
+        "description": "A 450-acre camp in the Des Moines River valley northeast of Woodward, operated by the Mid-Iowa Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.5759,
+          42.2546
+        ]
+      },
+      "properties": {
+        "name": "Howard H. Cherry Scout Reservation",
+        "type": "council_camp",
+        "council": "Hawkeye Area Council",
+        "address": "4514 Boy Scouts Rd, Central City, IA 52214",
+        "website": "https://hawkeyescouting.org/camping/hhcsr/",
+        "description": "A 500-acre reservation along the Wapsipinicon River near Central City, established in 1930 and operated by the Hawkeye Area Council."
       }
     }
   ]
