@@ -1026,6 +1026,156 @@
         "website": "https://mountaineerscouting.org/camp-mountaineer/",
         "description": "Over 1,000-acre Scout camp established in 1954, featuring a lake, quarter-mile zip lines, climbing towers, hiking trails, and summer resident camp for the Mountaineer Area Council."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-88.5082, 45.1772]
+      },
+      "properties": {
+        "name": "Bear Paw Scout Camp",
+        "type": "council_camp",
+        "council": "Bay-Lakes Council",
+        "address": "14000 Bear Paw Camp Ln, Mountain, WI 54149",
+        "website": "https://www.bpsc.org/",
+        "description": "Bay-Lakes Council Scout camp in northeastern Wisconsin offering summer resident camp, year-round camping, and outdoor adventure programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.2350, 44.0300]
+      },
+      "properties": {
+        "name": "Camp Decorah",
+        "type": "council_camp",
+        "council": "Gateway Area Council",
+        "address": "W7520 Council Bay Rd, Holmen, WI 54636",
+        "website": "https://www.gatewayscouting.org/campdecorah",
+        "description": "A 330-acre Scout camp on the Black River in the Driftless Region of western Wisconsin, offering summer resident camp and year-round outdoor programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.7894, 46.2671]
+      },
+      "properties": {
+        "name": "Camp Hiawatha",
+        "type": "council_camp",
+        "council": "Michigan Crossroads Council",
+        "address": "E6350 Doe Lake Rd, Munising, MI 49862",
+        "website": "https://michiganscouting.org/camping/properties/camp-hiawatha/",
+        "description": "Scout camp on Bunting Lake in the Hiawatha National Forest, between Munising and Chatham, offering summer resident camp and Cub Scout programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-88.1681, 43.6941]
+      },
+      "properties": {
+        "name": "Camp Long Lake",
+        "type": "council_camp",
+        "council": "Potawatomi Area Council",
+        "address": "N4350 Boy Scout Rd, St. Cloud, WI 53079",
+        "website": "https://www.pacbsa.org/camping/",
+        "description": "Established in 1946, a Scout camp in the Kettle Moraine State Forest offering summer resident camp and year-round outdoor programs for the Potawatomi Area Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-88.2951, 42.6092]
+      },
+      "properties": {
+        "name": "Camp Oh-Da-Ko-Ta",
+        "type": "council_camp",
+        "council": "Three Harbors Council",
+        "address": "3363 Dyer Lake Rd, Burlington, WI 53105",
+        "website": "https://www.threeharborsscouting.org/camping/camp-oh-da-ko-ta/64325",
+        "description": "Three Harbors Council Scout camp near Burlington, Wisconsin, offering summer resident camp, day camp, and year-round outdoor programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.0655, 43.8036]
+      },
+      "properties": {
+        "name": "Ed Bryant Scout Reservation",
+        "type": "council_camp",
+        "council": "Glacier's Edge Council",
+        "address": "N6960 County Rd G, Mauston, WI 53948",
+        "website": "https://www.glaciersedge.org/activiites/ebsr-summer-camp/",
+        "description": "Glacier's Edge Council Scout reservation near Mauston, Wisconsin, offering summer resident camp and year-round camping programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-88.6904, 45.1335]
+      },
+      "properties": {
+        "name": "Gardner Dam Scout Camp",
+        "type": "council_camp",
+        "council": "Bay-Lakes Council",
+        "address": "N2940 Gardner Dam Rd, White Lake, WI 54491",
+        "website": "https://baylakesbsa.org/your-camps/gardner-dam-scout-camp/",
+        "description": "Established in 1932, a 400-acre patrol cooking camp along the Wild Wolf River in Langlade County, owned and operated by the Bay-Lakes Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.8216, 45.6266]
+      },
+      "properties": {
+        "name": "L.E. Phillips Scout Reservation",
+        "type": "council_camp",
+        "council": "Chippewa Valley Council",
+        "address": "2900 16th St, Rice Lake, WI 54868",
+        "website": "https://campphillips.org/",
+        "description": "Chippewa Valley Council Scout reservation near Rice Lake, featuring Camp Phillips for Scouts BSA, Fort Rice for Cub Scouts, and Northwoods High Adventure programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.4199, 45.7266]
+      },
+      "properties": {
+        "name": "Tesomas Scout Camp",
+        "type": "council_camp",
+        "council": "Samoset Council",
+        "address": "5403 Spider Lake Rd, Rhinelander, WI 54501",
+        "website": "https://samoset.org/camping/tesomas/",
+        "description": "Since 1935, a Northwoods Scout camp near Rhinelander offering Scouts BSA summer camp, Cub Scout programs, and high adventure through the Hanna Venture Base."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.6788, 45.7046]
+      },
+      "properties": {
+        "name": "Tomahawk Scout Camp",
+        "type": "council_camp",
+        "council": "Northern Star Council",
+        "address": "N1910 Scout Rd, Birchwood, WI 54817",
+        "website": "https://www.camptomahawk.org/",
+        "description": "Northern Star Council Scout reservation near Birchwood, Wisconsin, offering multiple summer camp programs in the Northwoods."
+      }
     }
   ]
 }
