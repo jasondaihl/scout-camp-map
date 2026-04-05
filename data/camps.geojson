@@ -1431,6 +1431,36 @@
         "website": "https://www.campsinoquipe.org/",
         "description": "A 500-acre Scout reservation in the mountains of Fulton County, Pennsylvania, around a 10-acre lake near the Pennsylvania Turnpike."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.2633, 43.7571]
+      },
+      "properties": {
+        "name": "Camp Sunrise",
+        "type": "council_camp",
+        "council": "Green Mountain Council",
+        "address": "2050 Sunset Lake Rd, Benson, VT 05743",
+        "website": "https://www.scoutingvermont.org/camp-sunrise.html",
+        "description": "Green Mountain Council Scout camp on Sunset Lake in Benson, Vermont, offering summer resident camp and year-round outdoor programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.5778, 44.5588]
+      },
+      "properties": {
+        "name": "Mt. Norris Scout Reservation",
+        "type": "council_camp",
+        "council": "Green Mountain Council",
+        "address": "242 Boy Scout Camp Rd, Eden Mills, VT 05653",
+        "website": "https://www.scoutingvermont.org/mtnorris.html",
+        "description": "A scenic 1,071-acre Scout reservation in Eden Mills, Vermont, serving the Green Mountain Council for over 75 years with summer camp and year-round programs."
+      }
     }
   ]
 }
