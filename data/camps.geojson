@@ -5,10 +5,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -105.2747,
-          36.3953
-        ]
+        "coordinates": [-105.2747, 36.3953]
       },
       "properties": {
         "name": "Philmont Scout Ranch",
@@ -23,10 +20,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.8671,
-          47.9032
-        ]
+        "coordinates": [-91.8671, 47.9032]
       },
       "properties": {
         "name": "Northern Tier High Adventure",
@@ -41,10 +35,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -80.5886,
-          24.9465
-        ]
+        "coordinates": [-80.5886, 24.9465]
       },
       "properties": {
         "name": "Florida Sea Base",
@@ -59,10 +50,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -80.9987,
-          37.9137
-        ]
+        "coordinates": [-80.9987, 37.9137]
       },
       "properties": {
         "name": "Summit Bechtel Reserve",
@@ -77,10 +65,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -123.958,
-          45.1542
-        ]
+        "coordinates": [-123.958, 45.1542]
       },
       "properties": {
         "name": "Camp Meriwether",
@@ -95,10 +80,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -83.5977,
-          34.7865
-        ]
+        "coordinates": [-83.5977, 34.7865]
       },
       "properties": {
         "name": "Camp Rainey Mountain",
@@ -113,10 +95,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -92.000762,
-          30.187759
-        ]
+        "coordinates": [-92.000762, 30.187759]
       },
       "properties": {
         "name": "Swamp Base",
@@ -131,10 +110,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -88.345144,
-          41.32415
-        ]
+        "coordinates": [-88.345144, 41.32415]
       },
       "properties": {
         "name": "Rainbow Scout Reservation",
@@ -149,10 +125,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -88.3543,
-          42.0719
-        ]
+        "coordinates": [-88.3543, 42.0719]
       },
       "properties": {
         "name": "Camp Big Timber",
@@ -167,10 +140,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -86.2792,
-          43.3972
-        ]
+        "coordinates": [-86.2792, 43.3972]
       },
       "properties": {
         "name": "Owasippe Scout Reservation",
@@ -186,10 +156,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -86.3664,
-          41.9262
-        ]
+        "coordinates": [-86.3664, 41.9262]
       },
       "properties": {
         "name": "Camp Frank S. Betz",
@@ -204,10 +171,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -87.8147,
-          40.0394
-        ]
+        "coordinates": [-87.8147, 40.0394]
       },
       "properties": {
         "name": "Camp Robert Drake",
@@ -223,10 +187,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -90.318,
-          40.7162
-        ]
+        "coordinates": [-90.318, 40.7162]
       },
       "properties": {
         "name": "Ingersoll Scout Reservation",
@@ -242,10 +203,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.0142,
-          48.217
-        ]
+        "coordinates": [-91.0142, 48.217]
       },
       "properties": {
         "name": "Cache Lake Camp",
@@ -260,10 +218,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -88.9652,
-          45.3689
-        ]
+        "coordinates": [-88.9652, 45.3689]
       },
       "properties": {
         "name": "Ma-Ka-Ja-Wan Scout Reservation",
@@ -279,10 +234,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -88.1758,
-          42.5087
-        ]
+        "coordinates": [-88.1758, 42.5087]
       },
       "properties": {
         "name": "Camp Sol R. Crown",
@@ -298,10 +250,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -89.3589,
-          41.9529
-        ]
+        "coordinates": [-89.3589, 41.9529]
       },
       "properties": {
         "name": "Camp Lowden",
@@ -317,10 +266,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -90.0135,
-          42.3497
-        ]
+        "coordinates": [-90.0135, 42.3497]
       },
       "properties": {
         "name": "Canyon Camp",
@@ -335,10 +281,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -89.968,
-          42.11
-        ]
+        "coordinates": [-89.968, 42.11]
       },
       "properties": {
         "name": "Mount Carroll Cabin",
@@ -353,10 +296,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -88.2999,
-          42.6076
-        ]
+        "coordinates": [-88.2999, 42.6076]
       },
       "properties": {
         "name": "Camp Oh-Da-Ko-Ta",
@@ -371,10 +311,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -88.1681,
-          43.6941
-        ]
+        "coordinates": [-88.1681, 43.6941]
       },
       "properties": {
         "name": "Camp Long Lake",
@@ -389,10 +326,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -88.1658,
-          36.8247
-        ]
+        "coordinates": [-88.1658, 36.8247]
       },
       "properties": {
         "name": "Aquabase",
@@ -407,10 +341,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -85.6417,
-          37.8869
-        ]
+        "coordinates": [-85.6417, 37.8869]
       },
       "properties": {
         "name": "Camp Crooked Creek",
@@ -425,10 +356,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -88.1662,
-          36.8245
-        ]
+        "coordinates": [-88.1662, 36.8245]
       },
       "properties": {
         "name": "Pfeffer Scout Reservation",
@@ -443,10 +371,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -85.6266,
-          38.4834
-        ]
+        "coordinates": [-85.6266, 38.4834]
       },
       "properties": {
         "name": "Tunnel Mill Scout Reservation",
@@ -461,10 +386,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -89.1343,
-          37.6366
-        ]
+        "coordinates": [-89.1343, 37.6366]
       },
       "properties": {
         "name": "Pine Ridge Scout Camp",
@@ -479,10 +401,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -90.226,
-          38.9436
-        ]
+        "coordinates": [-90.226, 38.9436]
       },
       "properties": {
         "name": "Camp Warren Levis",
@@ -497,10 +416,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -89.0798,
-          39.389
-        ]
+        "coordinates": [-89.0798, 39.389]
       },
       "properties": {
         "name": "Rhodes-France Scout Reservation",
@@ -515,17 +431,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.3152,
-          40.1929
-        ]
+        "coordinates": [-91.3152, 40.1929]
       },
       "properties": {
         "name": "Saukenauk Scout Reservation",
         "type": "council_camp",
         "council": "Mississippi Valley Council",
         "address": "2948 E 1000th St, Mendon, IL 62351",
-        "website": "https://mvcscouting.org/our-camps/saukenauk-scout-reservation/",
+        "website": "https://mvcscouting.org/camping/saukenauk/",
         "description": "A 602-acre reservation located 25 miles north of Quincy, divided into four camp sections, offering year-round outdoor programming."
       }
     },
@@ -533,10 +446,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -89.6811,
-          39.7042
-        ]
+        "coordinates": [-89.6811, 39.7042]
       },
       "properties": {
         "name": "Camp Illinek",
@@ -551,10 +461,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.3574,
-          40.5394
-        ]
+        "coordinates": [-91.3574, 40.5394]
       },
       "properties": {
         "name": "Camp Eastman",
@@ -569,10 +476,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -90.0486,
-          39.3687
-        ]
+        "coordinates": [-90.0486, 39.3687]
       },
       "properties": {
         "name": "Camp Bunn",
@@ -587,10 +491,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.2477,
-          42.653
-        ]
+        "coordinates": [-91.2477, 42.653]
       },
       "properties": {
         "name": "Camp C.S. Klaus",
@@ -605,10 +506,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -92.416,
-          42.6896
-        ]
+        "coordinates": [-92.416, 42.6896]
       },
       "properties": {
         "name": "Camp Ingawanis (Ingawanis Adventure Base)",
@@ -623,10 +521,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -93.9125,
-          41.9478
-        ]
+        "coordinates": [-93.9125, 41.9478]
       },
       "properties": {
         "name": "Camp Mitigwa",
@@ -641,10 +536,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -91.5759,
-          42.2546
-        ]
+        "coordinates": [-91.5759, 42.2546]
       },
       "properties": {
         "name": "Howard H. Cherry Scout Reservation",
@@ -659,10 +551,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -85.0325,
-          41.5724
-        ]
+        "coordinates": [-85.0325, 41.5724]
       },
       "properties": {
         "name": "Anthony Wayne Scout Reservation",
@@ -677,10 +566,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -86.0388,
-          39.8648
-        ]
+        "coordinates": [-86.0388, 39.8648]
       },
       "properties": {
         "name": "Camp Belzer",
@@ -695,10 +581,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -86.7278,
-          40.8893
-        ]
+        "coordinates": [-86.7278, 40.8893]
       },
       "properties": {
         "name": "Camp Buffalo",
@@ -713,10 +596,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -86.7811,
-          40.4222
-        ]
+        "coordinates": [-86.7811, 40.4222]
       },
       "properties": {
         "name": "Franklin L. Cary Camp",
@@ -731,10 +611,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -85.8167,
-          40.1783
-        ]
+        "coordinates": [-85.8167, 40.1783]
       },
       "properties": {
         "name": "Camp Kikthawenund",
@@ -749,10 +626,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -86.9616,
-          39.4878
-        ]
+        "coordinates": [-86.9616, 39.4878]
       },
       "properties": {
         "name": "Camp Krietenstein",
@@ -767,10 +641,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -86.87,
-          41.65
-        ]
+        "coordinates": [-86.87, 41.65]
       },
       "properties": {
         "name": "Camp Topenebee",
@@ -785,10 +656,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -87.3375,
-          39.4876
-        ]
+        "coordinates": [-87.3375, 39.4876]
       },
       "properties": {
         "name": "Camp Wildwood",
@@ -803,10 +671,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -86.2806,
-          39.0087
-        ]
+        "coordinates": [-86.2806, 39.0087]
       },
       "properties": {
         "name": "Maumee Scout Reservation",
@@ -821,10 +686,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -86.4298,
-          39.0539
-        ]
+        "coordinates": [-86.4298, 39.0539]
       },
       "properties": {
         "name": "Ransburg Scout Reservation",
@@ -839,10 +701,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -86.43,
-          41.49
-        ]
+        "coordinates": [-86.43, 41.49]
       },
       "properties": {
         "name": "Rice Woods Camp",
@@ -857,10 +716,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -85.6266,
-          38.4834
-        ]
+        "coordinates": [-85.6266, 38.4834]
       },
       "properties": {
         "name": "Tunnel Mill Scout Reservation",
@@ -875,10 +731,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -85.7762,
-          41.8621
-        ]
+        "coordinates": [-85.7762, 41.8621]
       },
       "properties": {
         "name": "Wood Lake Scout Reservation (Camp Tamarack)",
@@ -893,10 +746,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -115.1482,
-          44.398
-        ]
+        "coordinates": [-115.1482, 44.398]
       },
       "properties": {
         "name": "Camp Bradley",
@@ -911,10 +761,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -116.7752,
-          47.5992
-        ]
+        "coordinates": [-116.7752, 47.5992]
       },
       "properties": {
         "name": "Camp Easton",
@@ -929,10 +776,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -116.7752,
-          47.5992
-        ]
+        "coordinates": [-116.7752, 47.5992]
       },
       "properties": {
         "name": "North Idaho High Adventure Base",
@@ -947,10 +791,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -116.6579,
-          46.9415
-        ]
+        "coordinates": [-116.6579, 46.9415]
       },
       "properties": {
         "name": "Camp Grizzly",
@@ -965,10 +806,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -111.2413,
-          43.3633
-        ]
+        "coordinates": [-111.2413, 43.3633]
       },
       "properties": {
         "name": "Camp Little Lemhi",
@@ -983,10 +821,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -111.3711,
-          44.4244
-        ]
+        "coordinates": [-111.3711, 44.4244]
       },
       "properties": {
         "name": "Island Park Scout Camp",
@@ -1001,10 +836,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -114.24,
-          45.39
-        ]
+        "coordinates": [-114.24, 45.39]
       },
       "properties": {
         "name": "Salmon River High Adventure Base (SRHAB)",
@@ -1019,10 +851,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -159.6795,
-          22.1064
-        ]
+        "coordinates": [-159.6795, 22.1064]
       },
       "properties": {
         "name": "Camp Alan Faye",
@@ -1037,10 +866,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -155.5226,
-          20.0709
-        ]
+        "coordinates": [-155.5226, 20.0709]
       },
       "properties": {
         "name": "Camp Honokaia",
@@ -1055,10 +881,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -156.5339,
-          20.9543
-        ]
+        "coordinates": [-156.5339, 20.9543]
       },
       "properties": {
         "name": "Camp Maluhia",
@@ -1073,10 +896,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -158.0262,
-          21.6456
-        ]
+        "coordinates": [-158.0262, 21.6456]
       },
       "properties": {
         "name": "Camp Pupukea",
