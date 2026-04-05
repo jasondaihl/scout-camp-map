@@ -1866,6 +1866,21 @@
         "website": "https://alaskahighadventure.com/",
         "description": "Midnight Sun Council high adventure base offering wilderness treks including river trips, backpacking, and dog mushing across Interior Alaska."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-66.9194, 18.3697]
+      },
+      "properties": {
+        "name": "Guajataka Scout Reservation",
+        "type": "council_camp",
+        "council": "Puerto Rico Council",
+        "address": "PR-119 km 23.9, San Sebastián, PR 00685",
+        "website": "https://www.scoutingpr.org/guajataka/",
+        "description": "Founded in 1938, the Puerto Rico Council's only camping grounds, known as 'El Santuario de Amistad,' bordering Guajataca Lake with capacity for over 500 participants."
+      }
     }
   ]
 }
