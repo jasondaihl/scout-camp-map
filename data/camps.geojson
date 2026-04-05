@@ -1596,6 +1596,201 @@
         "website": "https://www.utahscouts.org/teton",
         "description": "A nationally accredited high adventure base offering programs throughout the Teton Range, 16 miles south of Jackson Hole."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.4172, 30.0587]
+      },
+      "properties": {
+        "name": "Bear Creek Scout Reservation",
+        "type": "council_camp",
+        "council": "Alamo Area Council",
+        "address": "125 Bear Creek Scout Rd West, Hunt, TX 78024",
+        "website": "https://www.alamoareascouting.org/camping/bear-creek-scout-reservation/",
+        "description": "A 1,200-acre camp in the Texas Hill Country about 20 miles west of Kerrville, offering summer camp and high adventure on Brady Creek."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.0353, 30.3324]
+      },
+      "properties": {
+        "name": "Bovay Scout Ranch",
+        "type": "council_camp",
+        "council": "Sam Houston Area Council",
+        "address": "3450 County Road 317, Navasota, TX 77868",
+        "website": "https://shacbsa.org/bovay-scout-ranch",
+        "description": "A 1,498-acre ranch established in 2001, three miles south of Navasota, featuring rolling hills, lakes, and native Huisache and Bois-d'arc trees."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-103.9463, 30.8121]
+      },
+      "properties": {
+        "name": "Buffalo Trail Scout Ranch",
+        "type": "council_camp",
+        "council": "Buffalo Trail Council",
+        "address": "16400 End of Ranch Road 1832, Fort Davis, TX 79734",
+        "website": "https://www.btsr.org/",
+        "description": "A 9,000-acre camp in Little Aguja Canyon of the Davis Mountains in West Texas at approximately 4,409 feet elevation."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.0495, 31.1271]
+      },
+      "properties": {
+        "name": "Camp Billy Gibbons",
+        "type": "council_camp",
+        "council": "Texas Trails Council",
+        "address": "13397 County Road 360, Richland Springs, TX 76871",
+        "website": "https://www.texastrailsbsa.com/camping/camp-billy-gibbons/61680",
+        "description": "A 103-acre camp on Brady Creek first opened in 1931, featuring rugged Central Texas terrain with sheer rock faces and clear water."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.2081, 29.8538]
+      },
+      "properties": {
+        "name": "Camp Brosig",
+        "type": "council_camp",
+        "council": "Sam Houston Area Council",
+        "address": "1893 Trenckmann Rd, Sealy, TX 77474",
+        "website": "https://shacbsa.org/camp-brosig",
+        "description": "A 92-acre weekend camping property six miles north of Sealy in Austin County, dedicated in 1982 through a bequest from Alva Brosig."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.4843, 32.8585]
+      },
+      "properties": {
+        "name": "Camp Constantin",
+        "type": "council_camp",
+        "council": "Circle Ten Council",
+        "address": "3003 Park Road 36, Graford, TX 76449",
+        "website": "https://c10bsa.org/experience-adventure-at-camp-constantin/",
+        "description": "A 385-acre camp on Possum Kingdom Lake featuring the Jack D. Furst Aquatic Base with sailing, water skiing, swimming, and canoeing."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-101.8386, 35.0361]
+      },
+      "properties": {
+        "name": "Camp Don Harrington",
+        "type": "council_camp",
+        "council": "Golden Spread Council",
+        "address": "15427 FM 1541, Canyon, TX 79015",
+        "website": "https://goldenspread.org/camping/camp-don-harrington/",
+        "description": "A 1,600-acre camp first opened in 1945 in Palo Duro Canyon along the Prairie Dog Fork of the Red River, featuring 19 campsites and a lake."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-100.0329, 29.7409]
+      },
+      "properties": {
+        "name": "Camp Fawcett",
+        "type": "council_camp",
+        "council": "Texas Southwest Council",
+        "address": "526 S Ranch Rd 335, Barksdale, TX 78828",
+        "website": "https://www.scoutingtsc.org/camp-fawcett/",
+        "description": "A 173-acre camp on the Nueces River near Barksdale, founded in 1930 and named for rancher E.K. Fawcett."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7812, 33.8207]
+      },
+      "properties": {
+        "name": "Camp James Ray Scout Reservation",
+        "type": "council_camp",
+        "council": "Circle Ten Council",
+        "address": "71 Camp James Ray Rd, Pottsboro, TX 75076",
+        "website": "https://circleten.org/camp-james-ray",
+        "description": "A 540-acre camp on Lake Texoma featuring 11 campsites, the Sanford Aquatics Area with a 180,000-gallon pool, and a 141-foot water slide."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-95.7278, 29.1377]
+      },
+      "properties": {
+        "name": "Camp Karankawa",
+        "type": "council_camp",
+        "council": "Bay Area Council",
+        "address": "3249 FM 1459 Rd, Sweeny, TX 77480",
+        "website": "https://www.bacbsa.org/camp-karankawa/69179",
+        "description": "A 400-acre camp near West Columbia offering 15 campsites, swimming, aquatics, archery, and year-round camping programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.8836, 28.0694]
+      },
+      "properties": {
+        "name": "Camp Karankawa",
+        "type": "council_camp",
+        "council": "South Texas Council",
+        "address": "23564 Park Road 25, Mathis, TX 78368",
+        "website": "https://www.southtexasscouting.org/camp-karankawa/",
+        "description": "A 130-acre camp on Lake Corpus Christi established in 1944, featuring a 300-person dining hall, waterfront, pool, COPE course, and shooting sports."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-100.3652, 35.5186]
+      },
+      "properties": {
+        "name": "Camp M.K. Brown",
+        "type": "council_camp",
+        "council": "Golden Spread Council",
+        "address": "8425 FM 3182, Mobeetie, TX 79061",
+        "website": "https://goldenspread.org/camping/camp-mk-brown/",
+        "description": "Built in 1968 in Wheeler County, featuring a 65-acre lake, 14 campsites, dining hall, aquatics programs, and shooting ranges, open year-round."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-94.4139, 32.0245]
+      },
+      "properties": {
+        "name": "Camp Pirtle",
+        "type": "council_camp",
+        "council": "East Texas Area Council",
+        "address": "440 CR 1241, Gary, TX 75643",
+        "website": "https://etacbsa.org/",
+        "description": "Opened in 1964 on Lake Murvaul in the piney woods of East Texas, featuring 14 campsites, COPE course, climbing walls, and waterfront with boating."
+      }
     }
   ]
 }
