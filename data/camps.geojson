@@ -2665,6 +2665,134 @@
         "website": "https://www.campraymond.org/",
         "description": "160-acre camp between the Kaibab and Coconino National Forests, 30 miles from Flagstaff along the rim of Sycamore Canyon. Opened in 1964."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.6586, 33.0788]
+      },
+      "properties": {
+        "name": "Camp De Soto",
+        "type": "council_camp",
+        "council": "Natural State Council",
+        "city": "Junction City",
+        "state": "AR",
+        "website": "https://www.naturalstatecouncil.org/campdesoto",
+        "description": "Historic scout camp in Union County, operated since 1919. Formerly De Soto Area Council, now managed by Natural State Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.2667, 36.0592]
+      },
+      "properties": {
+        "name": "Camp Orr",
+        "type": "council_camp",
+        "council": "Natural State Council",
+        "city": "Jasper",
+        "state": "AR",
+        "website": "https://www.naturalstatecouncil.org/camporr",
+        "description": "600-acre high adventure camp on the Buffalo National River, the only BSA-accredited camp sheltered on all sides by the National Park Service."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-94.3781, 34.5318]
+      },
+      "properties": {
+        "name": "Camp Pioneer",
+        "type": "council_camp",
+        "council": "Caddo Area Council",
+        "city": "Hatfield",
+        "state": "AR",
+        "website": "https://www.caddobsa.org",
+        "description": "Former council camp in the Ouachita Mountains foothills where the Mountain Fork River and Two Mile Creek converge."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.9556, 33.4138]
+      },
+      "properties": {
+        "name": "Camp Preston Hunt",
+        "type": "council_camp",
+        "council": "Caddo Area Council",
+        "city": "Texarkana",
+        "state": "AR",
+        "website": "https://www.caddobsa.org",
+        "description": "250+ acre year-round camp originally built in 1936 with WPA labor, featuring cabins, a stocked lake, dining hall, and the historic Whitmarsh Amphitheater."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.2400, 36.3450]
+      },
+      "properties": {
+        "name": "Camp Spencer",
+        "type": "council_camp",
+        "council": "Natural State Council",
+        "city": "Mountain Home",
+        "state": "AR",
+        "website": "https://www.naturalstatecouncil.org/campspencer",
+        "description": "100-acre primitive camping peninsula on Lake Norfork with nearly 1.5 miles of shoreline, 75% wooded."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.4505, 35.3738]
+      },
+      "properties": {
+        "name": "Gus Blass Scout Reservation",
+        "type": "council_camp",
+        "council": "Natural State Council",
+        "city": "Damascus",
+        "state": "AR",
+        "website": "https://camprockefeller.org/",
+        "description": "3,200-acre reservation home to Camp Rockefeller, featuring the Donald W. Reynolds Scout Training Center, lakes, streams, caves, and forests."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.5922, 36.3446]
+      },
+      "properties": {
+        "name": "Kia Kima Scout Reservation",
+        "type": "council_camp",
+        "council": "Chickasaw Council",
+        "city": "Hardy",
+        "state": "AR",
+        "website": "https://www.kiakima.org/",
+        "description": "Nationally accredited summer camp and scouting tradition since 1916, split into Camp Osage, Camp Cherokee, and the Ozark Venture Base in the Ozark Mountains."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-94.0118, 35.0560]
+      },
+      "properties": {
+        "name": "Rogers Scout Reservation",
+        "type": "council_camp",
+        "council": "Natural State Council",
+        "city": "Booneville",
+        "state": "AR",
+        "website": "https://www.naturalstatecouncil.org/RSR",
+        "description": "2,800-acre facility built on former Booneville Sanatorium land, featuring a 250-person dining hall, training lodge, and 115-acre Keenan Lake."
+      }
     }
   ]
 }
