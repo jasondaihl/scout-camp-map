@@ -3250,6 +3250,108 @@
         "website": "https://www.yawgoog.org/",
         "description": "1,800-acre wilderness reservation divided into three camps: Three Point, Medicine Bow, and Sandy Beach."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.7104, 32.9594]
+      },
+      "properties": {
+        "name": "Camp Dale Resler",
+        "type": "council_camp",
+        "council": "Yucca Council",
+        "city": "Cloudcroft",
+        "state": "NM",
+        "address": "1850 Highway 82, Cloudcroft, NM 88317",
+        "website": "https://campreservation.com/573/Camps/466",
+        "description": "Scout camp located in the Sacramento Mountains near Cloudcroft."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-100.0613, 30.8426]
+      },
+      "properties": {
+        "name": "Camp Sol Mayer",
+        "type": "council_camp",
+        "council": "Texas Southwest Council",
+        "city": "Menard",
+        "state": "TX",
+        "address": "299 Camp Sol Mayer Rd, Menard, TX 76859",
+        "website": "https://www.scoutingtsc.org/camp-sol-mayer/",
+        "description": "Long-term camp property of the Texas Southwest Council hosting multiple camping events throughout the year."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.6708, 36.1911]
+      },
+      "properties": {
+        "name": "Camp Tres Ritos",
+        "type": "council_camp",
+        "council": "South Plains Council",
+        "city": "Vadito",
+        "state": "NM",
+        "address": "P.O. Box 39, Vadito, NM 87579",
+        "website": "https://www.spccamps.org/about-our-camps",
+        "description": "Scout camp in the Sangre de Cristo Mountains operated under lease from the National Park Service by the South Plains Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.2290, 32.4179]
+      },
+      "properties": {
+        "name": "Dowling Aquatic Base",
+        "type": "council_camp",
+        "council": "Conquistador Council",
+        "city": "Carlsbad",
+        "state": "NM",
+        "address": "205 S James St, Carlsbad, NM 88220",
+        "website": "https://www.nmscouts.org/dowling-aquatic-base",
+        "description": "The only camp in New Mexico dedicated to educating youth on water activities, located on the lower Pecos River."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.8979, 35.9082]
+      },
+      "properties": {
+        "name": "Gorham Scout Ranch",
+        "type": "council_camp",
+        "council": "High Desert Council",
+        "city": "Chimayo",
+        "state": "NM",
+        "address": "344 Cerro Pinon Rd, Chimayo, NM 87522",
+        "website": "https://www.gorhamscoutranchbsa.org/",
+        "description": "2,650-acre ranch in the foothills of the Sangre de Cristo Mountains offering high adventure programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.6638, 32.7669]
+      },
+      "properties": {
+        "name": "Wehinahpay Mountain Camp",
+        "type": "council_camp",
+        "council": "Conquistador Council",
+        "city": "Sacramento",
+        "state": "NM",
+        "address": "319 Potato Canyon Rd, Sacramento, NM 88347",
+        "website": "https://www.wmc-mountaincamp.org/",
+        "description": "Scout camp at over 8,500 feet elevation nestled among tall pines in the Sacramento Mountains."
+      }
     }
   ]
 }
