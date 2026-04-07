@@ -9845,6 +9845,909 @@
         "website": null,
         "description": null
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9281,
+          40.9485
+        ]
+      },
+      "properties": {
+        "name": "Alpine Scout Camp",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Alpine",
+        "state": "NJ",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9921,
+          39.7843
+        ]
+      },
+      "properties": {
+        "name": "Camp Grice",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Pine Hill",
+        "state": "NJ",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.4698,
+          40.9826
+        ]
+      },
+      "properties": {
+        "name": "Camp Lewis",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Rockaway",
+        "state": "NJ",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9603,
+          40.9832
+        ]
+      },
+      "properties": {
+        "name": "Camp NoBeBoSco",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Blairstown",
+        "state": "NJ",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.7183,
+          40.9602
+        ]
+      },
+      "properties": {
+        "name": "Camp Somers (Mt. Allamuchy SR)",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Byram Township",
+        "state": "NJ",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.4175,
+          40.6513
+        ]
+      },
+      "properties": {
+        "name": "Camp Watchung",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Watchung",
+        "state": "NJ",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.7183,
+          40.9602
+        ]
+      },
+      "properties": {
+        "name": "Camp Wheeler (Mt. Allamuchy SR)",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Byram Township",
+        "state": "NJ",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.4505,
+          40.9921
+        ]
+      },
+      "properties": {
+        "name": "Camp Winnebago",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Rockaway",
+        "state": "NJ",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2285,
+          41.086
+        ]
+      },
+      "properties": {
+        "name": "Camp Yaw Paw",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Mahwah",
+        "state": "NJ",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.4643,
+          44.224
+        ]
+      },
+      "properties": {
+        "name": "Floodwood Mountain Reservation",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Tupper Lake",
+        "state": "NY",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2207,
+          39.7557
+        ]
+      },
+      "properties": {
+        "name": "Joseph A. Citta Scout Reservation",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Barnegat",
+        "state": "NJ",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.7183,
+          40.9602
+        ]
+      },
+      "properties": {
+        "name": "Mt. Allamuchy Scout Reservation",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Byram Township",
+        "state": "NJ",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9603,
+          39.7936
+        ]
+      },
+      "properties": {
+        "name": "Pine Hill Scout Reservation",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Pine Hill",
+        "state": "NJ",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.3917,
+          40.2648
+        ]
+      },
+      "properties": {
+        "name": "Quail Hill Scout Reservation",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Manalapan",
+        "state": "NJ",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9052,
+          38.984
+        ]
+      },
+      "properties": {
+        "name": "Roosevelt Scout Reservation",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Tabernacle",
+        "state": "NJ",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.5143,
+          40.9012
+        ]
+      },
+      "properties": {
+        "name": "Winnebago Scout Reservation",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Rockaway",
+        "state": "NJ",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2966,
+          43.4174
+        ]
+      },
+      "properties": {
+        "name": "Camp Bell",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Gilmanton Iron Works",
+        "state": "NH",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3835,
+          42.9501
+        ]
+      },
+      "properties": {
+        "name": "Camp Carpenter",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Manchester",
+        "state": "NH",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0547,
+          42.8705
+        ]
+      },
+      "properties": {
+        "name": "Camp Wanocksett",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Dublin",
+        "state": "NH",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2966,
+          43.4174
+        ]
+      },
+      "properties": {
+        "name": "Hidden Valley Scout Camp",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Gilmanton Iron Works",
+        "state": "NH",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.04,
+          43.3313
+        ]
+      },
+      "properties": {
+        "name": "Parker Mountain Scout Reservation",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Strafford",
+        "state": "NH",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4259,
+          43.0795
+        ]
+      },
+      "properties": {
+        "name": "Pierre Hoge Scout Camp",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Walpole",
+        "state": "NH",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5341,
+          38.459
+        ]
+      },
+      "properties": {
+        "name": "Beaumont Scout Reservation",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "High Ridge",
+        "state": "MO",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3673,
+          37.6753
+        ]
+      },
+      "properties": {
+        "name": "Camp Famous Eagle",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Knob Lick",
+        "state": "MO",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3673,
+          37.6753
+        ]
+      },
+      "properties": {
+        "name": "Camp Gamble",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Knob Lick",
+        "state": "MO",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8466,
+          39.7686
+        ]
+      },
+      "properties": {
+        "name": "Camp Geiger Scout Reservation",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Saint Joseph",
+        "state": "MO",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.4637,
+          37.1762
+        ]
+      },
+      "properties": {
+        "name": "Camp Lewallen",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Silva",
+        "state": "MO",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3673,
+          37.6753
+        ]
+      },
+      "properties": {
+        "name": "Camp Sakima",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Knob Lick",
+        "state": "MO",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3969,
+          36.5007
+        ]
+      },
+      "properties": {
+        "name": "Cow Creek Scout Reservation",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Blue Eye",
+        "state": "MO",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.7035,
+          38.047
+        ]
+      },
+      "properties": {
+        "name": "H. Roe Bartle Scout Reservation",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Osceola",
+        "state": "MO",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.8255,
+          38.3084
+        ]
+      },
+      "properties": {
+        "name": "Lake of the Ozarks Scout Reservation",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Gravois Mills",
+        "state": "MO",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3673,
+          37.6753
+        ]
+      },
+      "properties": {
+        "name": "S-F Scout Ranch",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Knob Lick",
+        "state": "MO",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3673,
+          37.6753
+        ]
+      },
+      "properties": {
+        "name": "Swift High Adventure Base",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Knob Lick",
+        "state": "MO",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.5634,
+          34.6555
+        ]
+      },
+      "properties": {
+        "name": "Bay Springs Scout Base",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Booneville",
+        "state": "MS",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.7037,
+          32.3643
+        ]
+      },
+      "properties": {
+        "name": "Camp Binachi",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Meridian",
+        "state": "MS",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1493,
+          34.8304
+        ]
+      },
+      "properties": {
+        "name": "Camp Currier",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Eudora",
+        "state": "MS",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.8152,
+          33.4639
+        ]
+      },
+      "properties": {
+        "name": "Camp Seminole",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Starkville",
+        "state": "MS",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1353,
+          30.8582
+        ]
+      },
+      "properties": {
+        "name": "Camp Tiak",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Wiggins",
+        "state": "MS",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5188,
+          34.3664
+        ]
+      },
+      "properties": {
+        "name": "Camp Toby Tubby",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Oxford",
+        "state": "MS",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0383,
+          34.2115
+        ]
+      },
+      "properties": {
+        "name": "Camp Yocona",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Pontotoc",
+        "state": "MS",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3959,
+          31.8604
+        ]
+      },
+      "properties": {
+        "name": "Hood Scout Reservation (Warren Hood SR)",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Hazlehurst",
+        "state": "MS",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4351,
+          30.4091
+        ]
+      },
+      "properties": {
+        "name": "Salmen Scout Reservation (Camp V-Bar)",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Kiln",
+        "state": "MS",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9066,
+          37.3371
+        ]
+      },
+      "properties": {
+        "name": "Camp Arrowhead (Ozark Trails Council)",
+        "type": "council_camp",
+        "council": null,
+        "address": null,
+        "city": "Marshfield",
+        "state": "MO",
+        "country": "USA",
+        "website": null,
+        "description": null
+      }
     }
   ]
 }
