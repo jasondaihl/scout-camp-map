@@ -3148,6 +3148,108 @@
         "website": "https://www.palmettocouncil.org/gols",
         "description": "Outdoor leadership school near the Pacolet River offering mountain biking, rock climbing, and kayaking programs."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.4959, 41.4446]
+      },
+      "properties": {
+        "name": "Aquapaug Scout Reservation",
+        "type": "council_camp",
+        "council": "Narragansett Council",
+        "city": "South Kingstown",
+        "state": "RI",
+        "address": "1620 Ministerial Rd, South Kingstown, RI 02892",
+        "website": "https://www.narragansettbsa.org/camping-activities/weekend-camping/properties/rarrtl-aquapaug-scout-reservation/39496",
+        "description": "200-acre Scout camp in South Kingstown operated by the Narragansett Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.7939, 41.9649]
+      },
+      "properties": {
+        "name": "Buck Hill Scout Reservation",
+        "type": "council_camp",
+        "council": "Narragansett Council",
+        "city": "Pascoag",
+        "state": "RI",
+        "address": "464 Wakefield Rd, Pascoag, RI 02859",
+        "website": "https://www.narragansettbsa.org/camping-activities/weekend-camping/properties/rarrtl-buck-hill-scout-camp/39503",
+        "description": "1,142-acre Scout camp in Pascoag operated by the Narragansett Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.4843, 41.7792]
+      },
+      "properties": {
+        "name": "Champlin Scout Reservation",
+        "type": "council_camp",
+        "council": "Narragansett Council",
+        "city": "Cranston",
+        "state": "RI",
+        "address": "233 Scituate Ave, Cranston, RI 02921",
+        "website": "https://www.narragansettbsa.org/camping-activities/weekend-camping-/camps/rarrtl-camp-champlin/39499",
+        "description": "125-acre Scout reservation with a swimming pool and river for boating and canoeing."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.7793, 41.9749]
+      },
+      "properties": {
+        "name": "Cub World (Feinstein Youth Camp)",
+        "type": "council_camp",
+        "council": "Narragansett Council",
+        "city": "Pascoag",
+        "state": "RI",
+        "address": "704 Buck Hill Rd, Pascoag, RI 02859",
+        "website": "https://www.narragansettbsa.org/camping-program/weekend-camping/properties/cub-world/39500",
+        "description": "Cub Scout camping facility located near Buck Hill Scout Reservation in Pascoag."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.5714, 41.1664]
+      },
+      "properties": {
+        "name": "Sandsland Reservation",
+        "type": "council_camp",
+        "council": "Narragansett Council",
+        "city": "New Shoreham",
+        "state": "RI",
+        "address": "Connecticut Ave, New Shoreham, RI 02807",
+        "website": "https://www.narragansettbsa.org/camping-activities/weekend-camping/properties/rarrtl-sandsland-reservation/39501",
+        "description": "34-acre primitive camping area on Block Island with 3 campsites, accessible only by ferry."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.7758, 41.5191]
+      },
+      "properties": {
+        "name": "Yawgoog Scout Reservation",
+        "type": "council_camp",
+        "council": "Narragansett Council",
+        "city": "Rockville",
+        "state": "RI",
+        "address": "61 Camp Yawgoog Rd, Rockville, RI 02873",
+        "website": "https://www.yawgoog.org/",
+        "description": "1,800-acre wilderness reservation divided into three camps: Three Point, Medicine Bow, and Sandy Beach."
+      }
     }
   ]
 }
