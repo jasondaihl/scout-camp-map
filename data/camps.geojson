@@ -3352,6 +3352,159 @@
         "website": "https://www.wmc-mountaincamp.org/",
         "description": "Scout camp at over 8,500 feet elevation nestled among tall pines in the Sacramento Mountains."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-113.1698, 45.9441]
+      },
+      "properties": {
+        "name": "Camp Arcola",
+        "type": "council_camp",
+        "council": "Montana Council",
+        "city": "Anaconda",
+        "state": "MT",
+        "address": "Anaconda, MT 59711",
+        "website": "https://scoutingmontana.org/camps/arcola/",
+        "description": "Rugged mountain Scout camp near the Anaconda-Pintler Wilderness at 6,447 feet elevation."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-114.3394, 47.8181]
+      },
+      "properties": {
+        "name": "Camp Melita Island",
+        "type": "council_camp",
+        "council": "Montana Council",
+        "city": "Polson",
+        "state": "MT",
+        "address": "34490 US Hwy 93N, Big Arm, MT 59910",
+        "website": "https://scoutingmontana.org/camps/melita-island/",
+        "description": "Island Scout camp on Flathead Lake accessible by boat from the Big Arm gateway."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-113.5141, 47.1790]
+      },
+      "properties": {
+        "name": "Camp Paxson",
+        "type": "council_camp",
+        "council": "Montana Council",
+        "city": "Seeley Lake",
+        "state": "MT",
+        "address": "4200 Boy Scout Rd, Seeley Lake, MT 59868",
+        "website": "https://www.camppaxson.org/app/",
+        "description": "Historic Scout camp on the western shore of Seeley Lake in Lolo National Forest, listed on the National Register of Historic Places."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-114.0730, 48.1360]
+      },
+      "properties": {
+        "name": "Grizzly Base Camp",
+        "type": "council_camp",
+        "council": "Montana Council",
+        "city": "Columbia Falls",
+        "state": "MT",
+        "address": "900 La Brant Rd, Bigfork, MT 59911",
+        "website": "https://scoutingmontana.org/camps/grizzly-base/",
+        "description": "Scout camp at the base of the Rocky Mountains, 40 miles south of Glacier National Park and 5 miles north of Flathead Lake."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-109.4639, 47.2722]
+      },
+      "properties": {
+        "name": "K-M Scout Ranch",
+        "type": "council_camp",
+        "council": "Montana Council",
+        "city": "Lewistown",
+        "state": "MT",
+        "address": "1066 K-M Rd, Hilger, MT 59451",
+        "website": "https://scoutingmontana.org/camps/km-scout-ranch/",
+        "description": "Scout ranch in the North Moccasin Mountains, 23 miles northwest of Lewistown."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.5863, 41.4305]
+      },
+      "properties": {
+        "name": "Camp Cedars",
+        "type": "council_camp",
+        "council": "Mid-America Council",
+        "city": "Cedar Bluffs",
+        "state": "NE",
+        "address": "2898 Tom Lee Rd, Cedar Bluffs, NE 68015",
+        "website": "https://mac-bsa.org/camping-outdoors/council-facilities/camp-cedars/",
+        "description": "Mid-America Council's principal long-term Scout resident camp since 1939, located three miles northeast of Cedar Bluffs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-95.9430, 40.0186]
+      },
+      "properties": {
+        "name": "Camp Cornhusker",
+        "type": "council_camp",
+        "council": "Cornhusker Council",
+        "city": "Du Bois",
+        "state": "NE",
+        "address": "63375 703 Trail, Du Bois, NE 68345",
+        "website": "https://www.cornhuskercouncil.org/camping/camp-cornhusker/overview.html",
+        "description": "480-acre Scout camp in southeast Nebraska."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.5678, 41.4231]
+      },
+      "properties": {
+        "name": "Camp Eagle",
+        "type": "council_camp",
+        "council": "Mid-America Council",
+        "city": "Cedar Bluffs",
+        "state": "NE",
+        "address": "2911 County Road 15, Cedar Bluffs, NE 68015",
+        "website": "https://mac-bsa.org/camping-outdoors/council-facilities/camp-eagle/",
+        "description": "312 acres of woods, meadows, and river bottomland near Cedar Bluffs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-95.8967, 41.1638]
+      },
+      "properties": {
+        "name": "Camp Wa-Kon-Da",
+        "type": "council_camp",
+        "council": "Mid-America Council",
+        "city": "Bellevue",
+        "state": "NE",
+        "address": "402 Forest Dr, Bellevue, NE 68005",
+        "website": "https://mac-bsa.org/camping-outdoors/council-facilities/camp-wa-kon-da/",
+        "description": "40-acre Scout property in Bellevue operated by the Mid-America Council."
+      }
     }
   ]
 }
