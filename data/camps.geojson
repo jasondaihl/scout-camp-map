@@ -3046,6 +3046,108 @@
         "website": "https://www.cherokeeareabsa.com/skymont",
         "description": "Over 2,200 acres on the Cumberland Plateau featuring waterfalls, scenic overlooks, caves, and wooded forest."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.5993, 34.0666]
+      },
+      "properties": {
+        "name": "Camp Barstow",
+        "type": "council_camp",
+        "council": "Indian Waters Council",
+        "city": "Batesburg-Leesville",
+        "state": "SC",
+        "address": "117 Camp Barstow Dr, Batesburg, SC 29006",
+        "website": "https://campbarstowsc.com/",
+        "description": "Over 300 acres along the banks of Lake Murray in Saluda County."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.8929, 34.5493]
+      },
+      "properties": {
+        "name": "Camp Coker",
+        "type": "council_camp",
+        "council": "Indian Waters Council",
+        "city": "Society Hill",
+        "state": "SC",
+        "address": "2056 Camp Coker Rd, Society Hill, SC 29593",
+        "website": "https://indianwaters.org/camps/coker/",
+        "description": "335-acre historic property located outside Society Hill, owned by the Camp Coker Trust and leased to the Indian Waters Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.4978, 34.9113]
+      },
+      "properties": {
+        "name": "Camp Conley Clarke",
+        "type": "council_camp",
+        "council": "Palmetto Council",
+        "city": "Gaffney",
+        "state": "SC",
+        "address": "1192 Hickory Grove Rd, Gaffney, SC 29340",
+        "website": "https://www.palmettocouncil.org/camp-conley-clarke",
+        "description": "Approximately 450 acres with a pond, open fields, and wooded natural areas."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.1784, 32.6735]
+      },
+      "properties": {
+        "name": "Camp Ho Non Wah",
+        "type": "council_camp",
+        "council": "Coastal Carolina Council",
+        "city": "Wadmalaw Island",
+        "state": "SC",
+        "address": "2609 Boy Scout Rd, Wadmalaw Island, SC 29487",
+        "website": "https://www.camphnw.com/",
+        "description": "184-acre retreat along the banks of the Bohicket River on Wadmalaw Island."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.3802, 35.1283]
+      },
+      "properties": {
+        "name": "Camp Old Indian",
+        "type": "council_camp",
+        "council": "Blue Ridge Council",
+        "city": "Travelers Rest",
+        "state": "SC",
+        "address": "601 Callahan Mountain Rd, Travelers Rest, SC 29690",
+        "website": "https://www.blueridgecouncil.org/camps/camp-old-indian/",
+        "description": "Scout summer camp operated by the Blue Ridge Council near Travelers Rest."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.8346, 34.9455]
+      },
+      "properties": {
+        "name": "Glendale Outdoor Leadership School (GOLS)",
+        "type": "council_camp",
+        "council": "Palmetto Council",
+        "city": "Spartanburg",
+        "state": "SC",
+        "address": "270 Wheeling Cir, Glendale, SC 29346",
+        "website": "https://www.palmettocouncil.org/gols",
+        "description": "Outdoor leadership school near the Pacolet River offering mountain biking, rock climbing, and kayaking programs."
+      }
     }
   ]
 }
