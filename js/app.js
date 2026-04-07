@@ -73,6 +73,11 @@
 
     if (props.address) {
       html += '<div class="detail">' + props.address + "</div>";
+    } else if (props.city || props.country) {
+      var location = props.city || "";
+      if (props.city && props.country) location += ", ";
+      if (props.country) location += props.country;
+      html += '<div class="detail">' + location + "</div>";
     }
 
     if (props.website) {
