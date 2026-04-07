@@ -3998,6 +3998,805 @@
         "website": "https://quivirascoutranch.com/",
         "description": "Nestled in the Chautauqua Flint Hills featuring Murray Gill Lake, a 475-acre private lake and the largest BSA council-owned lake in the US."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-116.7220, 33.7460]
+      },
+      "properties": {
+        "name": "Boseker Scout Reservation (Camp Emerson)",
+        "type": "council_camp",
+        "council": "California Inland Empire Council",
+        "city": "Idyllwild",
+        "state": "CA",
+        "address": "24680 Camp Emerson Road, Idyllwild, CA 92549",
+        "website": "https://www.caborsa.org/boseker",
+        "description": "A mountain scout reservation in the San Jacinto Mountains near Idyllwild, offering summer camp and year-round outdoor programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.1225, 37.1250]
+      },
+      "properties": {
+        "name": "Boulder Creek Scout Reservation",
+        "type": "council_camp",
+        "council": "Silicon Valley Monterey Bay Council",
+        "city": "Boulder Creek",
+        "state": "CA",
+        "address": "400 Scout Way, Boulder Creek, CA 95006",
+        "website": "https://www.svmbc.org/bouldercreek",
+        "description": "A scout reservation nestled in the Santa Cruz Mountains offering camping, hiking, and outdoor adventure programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.2780, 33.7080]
+      },
+      "properties": {
+        "name": "Cabrillo Beach Youth Waterfront Sports Center",
+        "type": "council_camp",
+        "council": "Greater Los Angeles Area Council",
+        "city": "San Pedro",
+        "state": "CA",
+        "address": "3000 Shoshonean Road, San Pedro, CA 90731",
+        "website": "https://www.glaacbsa.org",
+        "description": "A waterfront facility at Cabrillo Beach offering sailing, kayaking, rowing, and other aquatic programs for scouts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.1440, 32.7630]
+      },
+      "properties": {
+        "name": "Camp Balboa",
+        "type": "council_camp",
+        "council": "San Diego-Imperial Council",
+        "city": "San Diego",
+        "state": "CA",
+        "address": "1405 Park Blvd, San Diego, CA 92101",
+        "website": "https://www.sdic.org/campbalboa",
+        "description": "An urban scout camp in Balboa Park providing a unique camping experience in the heart of San Diego."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-123.0880, 38.5350]
+      },
+      "properties": {
+        "name": "Camp CC Moore",
+        "type": "council_camp",
+        "council": "Mount Diablo Silverado Council",
+        "city": "Cazadero",
+        "state": "CA",
+        "address": "5900 Cazadero Highway, Cazadero, CA 95421",
+        "website": "https://www.mdscbsa.org/campccmoore",
+        "description": "Formerly Camp Royaneh, a redwood forest camp in Sonoma County along Austin Creek offering summer camp and year-round programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.3060, 37.0730]
+      },
+      "properties": {
+        "name": "Camp Chawanakee",
+        "type": "council_camp",
+        "council": "Sequoia Council",
+        "city": "Shaver Lake",
+        "state": "CA",
+        "address": "42777 Tollhouse Road, Shaver Lake, CA 93664",
+        "website": "https://www.sequoiabsa.org/chawanakee",
+        "description": "Located at 5,400 feet in the Sierra Nevada near Shaver Lake, offering over 60 merit badges and aquatic programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.9700, 36.6340]
+      },
+      "properties": {
+        "name": "Camp David Wortman",
+        "type": "council_camp",
+        "council": "Sequoia Council",
+        "city": "Badger",
+        "state": "CA",
+        "address": "39555 Eshom Valley Drive, Badger, CA 93603",
+        "website": "https://www.sequoiabsa.org/wortman",
+        "description": "A Sierra Nevada scout camp near Sequoia National Park offering outdoor programs and camping facilities."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.5160, 33.4400]
+      },
+      "properties": {
+        "name": "Camp Emerald Bay",
+        "type": "council_camp",
+        "council": "Western Los Angeles County Council",
+        "city": "Avalon",
+        "state": "CA",
+        "address": "1 Emerald Bay, Avalon, CA 90704",
+        "website": "https://www.wlacc.org/emeraldbay",
+        "description": "Located on Catalina Island, a premier waterfront scout camp accessible only by boat offering sailing, snorkeling, and ocean activities."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.2260, 32.7690]
+      },
+      "properties": {
+        "name": "Camp Fiesta Island",
+        "type": "council_camp",
+        "council": "San Diego-Imperial Council",
+        "city": "San Diego",
+        "state": "CA",
+        "address": "1590 E Mission Bay Drive, San Diego, CA 92109",
+        "website": "https://www.sdic.org/fiestaisland",
+        "description": "A scout camp on Fiesta Island in Mission Bay offering aquatic activities, camping, and outdoor programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3110, 37.9220]
+      },
+      "properties": {
+        "name": "Camp Herms",
+        "type": "council_camp",
+        "council": "Mount Diablo Silverado Council",
+        "city": "El Cerrito",
+        "state": "CA",
+        "address": "1100 James Place, El Cerrito, CA 94530",
+        "website": "https://www.mdscbsa.org/campherms",
+        "description": "A 4.5-acre day camp and meeting facility in the hills of El Cerrito serving Cub Scouts and community groups."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.1060, 38.0830]
+      },
+      "properties": {
+        "name": "Camp Hi-Sierra",
+        "type": "council_camp",
+        "council": "Mount Diablo Silverado Council",
+        "city": "Long Barn",
+        "state": "CA",
+        "address": "31375 Tuolumne Road North, Long Barn, CA 95335",
+        "website": "https://www.mdscbsa.org/camphisierra",
+        "description": "A Sierra Nevada summer camp near Pinecrest Lake at 5,600 feet elevation offering merit badges and high adventure programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.0300, 37.3140]
+      },
+      "properties": {
+        "name": "Camp Isom",
+        "type": "council_camp",
+        "council": "Pacific Skyline Council",
+        "city": "Newman",
+        "state": "CA",
+        "address": "30651 W Hills Ferry Road, Newman, CA 95360",
+        "website": "https://www.pacificskylinecouncil.org",
+        "description": "A scout camp in Stanislaus County near the San Joaquin River offering outdoor programs and camping facilities."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.9880, 38.1830]
+      },
+      "properties": {
+        "name": "Camp John Mensinger",
+        "type": "council_camp",
+        "council": "Greater Yosemite Council",
+        "city": "Pinecrest",
+        "state": "CA",
+        "address": "31101 Crabtree Road, Pinecrest, CA 95364",
+        "website": "https://www.gycbsa.org/mensinger",
+        "description": "A Sierra Nevada scout camp near Pinecrest Lake offering summer camp programs in Tuolumne County."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.1490, 37.0530]
+      },
+      "properties": {
+        "name": "Camp Kern",
+        "type": "council_camp",
+        "council": "Sequoia Council",
+        "city": "Lakeshore",
+        "state": "CA",
+        "address": "64244 Dinkey Creek Road, Lakeshore, CA 93634",
+        "website": "https://www.sequoiabsa.org/kern",
+        "description": "Located near Huntington Lake in the Sierra National Forest, offering camping and outdoor programs at 7,000 feet elevation."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.6720, 39.2980]
+      },
+      "properties": {
+        "name": "Camp Marin-Sierra",
+        "type": "council_camp",
+        "council": "Marin Council",
+        "city": "Emigrant Gap",
+        "state": "CA",
+        "address": "46901 Big Bend Road, Emigrant Gap, CA 95715",
+        "website": "https://www.marincouncilbsa.org/marinsierra",
+        "description": "A Sierra Nevada camp near Emigrant Gap offering summer camp and outdoor programs for Marin Council scouts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.7190, 37.3870]
+      },
+      "properties": {
+        "name": "Camp McConnell",
+        "type": "council_camp",
+        "council": "Greater Yosemite Council",
+        "city": "Livingston",
+        "state": "CA",
+        "address": "9750 McConnell Road, Livingston, CA 95334",
+        "website": "https://www.gycbsa.org/mcconnell",
+        "description": "A Central Valley scout camp along the Merced River offering Cub Scout and Scouts BSA programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.1560, 37.0730]
+      },
+      "properties": {
+        "name": "Camp Oljato",
+        "type": "council_camp",
+        "council": "Sequoia Council",
+        "city": "Lakeshore",
+        "state": "CA",
+        "address": "64100 Huntington Lake Road, Lakeshore, CA 93634",
+        "website": "https://www.sequoiabsa.org/oljato",
+        "description": "A waterfront scout camp on the shores of Huntington Lake in the Sierra National Forest at 7,000 feet elevation."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.8260, 36.2750]
+      },
+      "properties": {
+        "name": "Camp Pico Blanco",
+        "type": "council_camp",
+        "council": "Silicon Valley Monterey Bay Council",
+        "city": "Big Sur",
+        "state": "CA",
+        "address": "Pico Blanco Road, Big Sur, CA 93920",
+        "website": "https://www.svmbc.org/picoblanco",
+        "description": "A remote scout camp in the Ventana Wilderness area of Big Sur along the Little Sur River."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-124.1630, 40.8020]
+      },
+      "properties": {
+        "name": "Camp Riggs Johnston",
+        "type": "council_camp",
+        "council": "Redwood Empire Council",
+        "city": "Eureka",
+        "state": "CA",
+        "address": "5200 Fay Slough Road, Eureka, CA 95503",
+        "website": "https://www.redwoodempirecouncil.org",
+        "description": "A scout camp near Humboldt Bay in northern California serving the Redwood Empire Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.5520, 39.3220]
+      },
+      "properties": {
+        "name": "Camp Robert L. Cole",
+        "type": "council_camp",
+        "council": "Golden Empire Council",
+        "city": "Cisco Grove",
+        "state": "CA",
+        "address": "51500 Hampshire Rocks Road, Soda Springs, CA 95728",
+        "website": "https://www.gec-bsa.org/cole",
+        "description": "A Sierra Nevada scout camp near Cisco Grove at 5,900 feet elevation offering summer camp and winter programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.6300, 34.5470]
+      },
+      "properties": {
+        "name": "Camp Silver Fir",
+        "type": "council_camp",
+        "council": "Greater Los Angeles Area Council",
+        "city": "Castaic",
+        "state": "CA",
+        "address": "35500 Silver Fir Road, Castaic, CA 91384",
+        "website": "https://www.glaacbsa.org/silverfir",
+        "description": "A scout camp in the Angeles National Forest near Castaic offering outdoor programs and camping."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-116.9880, 34.1520]
+      },
+      "properties": {
+        "name": "Camp Tahquitz",
+        "type": "council_camp",
+        "council": "California Inland Empire Council",
+        "city": "Angelus Oaks",
+        "state": "CA",
+        "address": "39400 Seven Oaks Road, Angelus Oaks, CA 92305",
+        "website": "https://www.caborsa.org/tahquitz",
+        "description": "A mountain scout camp in the San Bernardino National Forest offering summer camp programs at elevation."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.5880, 37.9870]
+      },
+      "properties": {
+        "name": "Camp Tamarancho",
+        "type": "council_camp",
+        "council": "Marin Council",
+        "city": "Fairfax",
+        "state": "CA",
+        "address": "1 Boy Scout Drive, Fairfax, CA 94930",
+        "website": "https://www.marincouncilbsa.org/tamarancho",
+        "description": "A 480-acre scout camp in Marin County featuring hiking trails, camping, and a popular mountain bike park."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.0700, 34.8120]
+      },
+      "properties": {
+        "name": "Camp Three Falls",
+        "type": "council_camp",
+        "council": "Ventura County Council",
+        "city": "Frazier Park",
+        "state": "CA",
+        "address": "8501 Frazier Mountain Park Road, Frazier Park, CA 93225",
+        "website": "https://www.vccbsa.org/threefalls",
+        "description": "A scout camp in the Los Padres National Forest near Frazier Park offering summer camp and outdoor programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.6150, 34.5330]
+      },
+      "properties": {
+        "name": "Camp Verdugo Oaks",
+        "type": "council_camp",
+        "council": "Greater Los Angeles Area Council",
+        "city": "Castaic",
+        "state": "CA",
+        "address": "28851 Bouquet Canyon Road, Castaic, CA 91384",
+        "website": "https://www.glaacbsa.org/verdugooaks",
+        "description": "A scout camp in the Angeles National Forest near Castaic offering camping and outdoor adventure programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.4210, 35.9440]
+      },
+      "properties": {
+        "name": "Camp Whitsett",
+        "type": "council_camp",
+        "council": "Greater Los Angeles Area Council",
+        "city": "Kernville",
+        "state": "CA",
+        "address": "40600 Whitsett Drive, Kernville, CA 93238",
+        "website": "https://www.glaacbsa.org/whitsett",
+        "description": "A Sierra Nevada scout camp near Kernville on the Kern River offering summer camp, aquatics, and high adventure programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.3430, 34.4210]
+      },
+      "properties": {
+        "name": "Camp Willett",
+        "type": "council_camp",
+        "council": "Ventura County Council",
+        "city": "Oak View",
+        "state": "CA",
+        "address": "1401 Camp Willett Road, Oak View, CA 93022",
+        "website": "https://www.vccbsa.org/willett",
+        "description": "A scout camp in the Ojai Valley near Oak View offering year-round outdoor programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.6680, 39.3050]
+      },
+      "properties": {
+        "name": "Camp Winton",
+        "type": "council_camp",
+        "council": "Mount Diablo Silverado Council",
+        "city": "Emigrant Gap",
+        "state": "CA",
+        "address": "46600 Big Bend Road, Emigrant Gap, CA 95715",
+        "website": "https://www.mdscbsa.org/campwinton",
+        "description": "A Sierra Nevada scout camp near Emigrant Gap offering Cub Scout programs and family camping."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.3480, 38.2280]
+      },
+      "properties": {
+        "name": "Camp Wolfeboro",
+        "type": "council_camp",
+        "council": "Mount Diablo Silverado Council",
+        "city": "Arnold",
+        "state": "CA",
+        "address": "3550 Blagen Road, Arnold, CA 95223",
+        "website": "https://www.mdscbsa.org/campwolfeboro",
+        "description": "A Sierra Nevada scout camp near Arnold at 4,500 feet elevation offering summer camp and year-round programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.7590, 36.9780]
+      },
+      "properties": {
+        "name": "Chesebrough Scout Reservation",
+        "type": "council_camp",
+        "council": "Silicon Valley Monterey Bay Council",
+        "city": "Watsonville",
+        "state": "CA",
+        "address": "2351 E Lake Avenue, Watsonville, CA 95076",
+        "website": "https://www.svmbc.org/chesebrough",
+        "description": "A scout reservation near Watsonville offering camping and outdoor programs in Santa Cruz County."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.9350, 34.1060]
+      },
+      "properties": {
+        "name": "Circle X Ranch",
+        "type": "council_camp",
+        "council": "Western Los Angeles County Council",
+        "city": "Malibu",
+        "state": "CA",
+        "address": "12896 Yerba Buena Road, Malibu, CA 90265",
+        "website": "https://www.nps.gov/samo/planyourvisit/circlex.htm",
+        "description": "Part of the Hubert Eaton Scout Reservation in the Santa Monica Mountains, now jointly managed with the National Park Service."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.1450, 37.1150]
+      },
+      "properties": {
+        "name": "Cutter Scout Reservation",
+        "type": "council_camp",
+        "council": "Silicon Valley Monterey Bay Council",
+        "city": "Boulder Creek",
+        "state": "CA",
+        "address": "16400 Highway 9, Boulder Creek, CA 95006",
+        "website": "https://www.svmbc.org/cutter",
+        "description": "A scout reservation in the Santa Cruz Mountains near Boulder Creek offering Cub Scout and family programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.8970, 33.9190]
+      },
+      "properties": {
+        "name": "Firestone Scout Reservation",
+        "type": "council_camp",
+        "council": "Orange County Council",
+        "city": "Brea",
+        "state": "CA",
+        "address": "2601 E Carbon Canyon Road, Brea, CA 92821",
+        "website": "https://www.ocbsa.org/firestone",
+        "description": "A 57-acre scout reservation in Carbon Canyon offering camping, shooting sports, and outdoor programs for Orange County scouts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.1790, 34.2640]
+      },
+      "properties": {
+        "name": "Forest Lawn Scout Reservation",
+        "type": "council_camp",
+        "council": "California Inland Empire Council",
+        "city": "Lake Arrowhead",
+        "state": "CA",
+        "address": "28400 Highway 18, Lake Arrowhead, CA 92352",
+        "website": "https://www.caborsa.org/forestlawn",
+        "description": "Part of the Hubert Eaton Scout Reservation in the San Bernardino Mountains near Lake Arrowhead, offering summer camp at 5,300 feet."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.7310, 33.7560]
+      },
+      "properties": {
+        "name": "Irvine Ranch Outdoor Education Center",
+        "type": "council_camp",
+        "council": "Orange County Council",
+        "city": "Orange",
+        "state": "CA",
+        "address": "2 Irvine Park Road, Orange, CA 92869",
+        "website": "https://www.ocbsa.org/irvineranch",
+        "description": "An outdoor education center in Irvine Regional Park offering camping, nature programs, and STEM activities."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.1850, 33.7550]
+      },
+      "properties": {
+        "name": "Long Beach Sea Base",
+        "type": "council_camp",
+        "council": "Long Beach Area Council",
+        "city": "Long Beach",
+        "state": "CA",
+        "address": "223 Marina Drive, Long Beach, CA 90803",
+        "website": "https://www.lbacbsa.org/seabase",
+        "description": "A waterfront facility in Long Beach offering sailing, kayaking, and maritime education programs for scouts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-116.6560, 33.2830]
+      },
+      "properties": {
+        "name": "Lost Valley Scout Reservation",
+        "type": "council_camp",
+        "council": "San Diego-Imperial Council",
+        "city": "Warner Springs",
+        "state": "CA",
+        "address": "37370 Lost Valley Road, Warner Springs, CA 92086",
+        "website": "https://www.sdic.org/lostvalley",
+        "description": "Also known as Schoepe Scout Reservation, a mountain camp in the Cleveland National Forest offering summer camp and outdoor programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-116.6840, 33.1290]
+      },
+      "properties": {
+        "name": "Mataguay Scout Reservation",
+        "type": "council_camp",
+        "council": "San Diego-Imperial Council",
+        "city": "Santa Ysabel",
+        "state": "CA",
+        "address": "28901 Highway 79, Santa Ysabel, CA 92070",
+        "website": "https://www.sdic.org/mataguay",
+        "description": "A 700-acre scout reservation in the mountains east of San Diego offering summer camp and year-round programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.9170, 33.6030]
+      },
+      "properties": {
+        "name": "Newport Sea Base",
+        "type": "council_camp",
+        "council": "Orange County Council",
+        "city": "Newport Beach",
+        "state": "CA",
+        "address": "1931 W Coast Highway, Newport Beach, CA 92663",
+        "website": "https://www.ocbsa.org/newportseabase",
+        "description": "A waterfront facility in Newport Beach offering sailing, kayaking, and aquatic programs for scouts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.8390, 38.9060]
+      },
+      "properties": {
+        "name": "NorCal Adventure Area",
+        "type": "council_camp",
+        "council": "Golden Empire Council",
+        "city": "Georgetown",
+        "state": "CA",
+        "address": "3611 Balderston Road, Georgetown, CA 95634",
+        "website": "https://www.gec-bsa.org/norcal",
+        "description": "An adventure base in El Dorado County offering high adventure programs including mountain biking, climbing, and backpacking."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.5960, 33.6290]
+      },
+      "properties": {
+        "name": "Oso Lake",
+        "type": "council_camp",
+        "council": "Orange County Council",
+        "city": "Rancho Santa Margarita",
+        "state": "CA",
+        "address": "28092 Oso Parkway, Rancho Santa Margarita, CA 92688",
+        "website": "https://www.ocbsa.org/osolake",
+        "description": "A small scout camp facility near Rancho Santa Margarita offering day camp and outdoor programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.3430, 37.9130]
+      },
+      "properties": {
+        "name": "Pendola Sierra Adventure Base",
+        "type": "council_camp",
+        "council": "Greater Yosemite Council",
+        "city": "Sonora",
+        "state": "CA",
+        "address": "19601 Ferretti Road, Sonora, CA 95370",
+        "website": "https://www.gycbsa.org/pendola",
+        "description": "A Sierra Nevada adventure base near Sonora offering high adventure programs including backpacking and outdoor skills."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.7990, 34.5700]
+      },
+      "properties": {
+        "name": "Rancho Alegre",
+        "type": "council_camp",
+        "council": "Los Padres Council",
+        "city": "Santa Barbara",
+        "state": "CA",
+        "address": "2718 Happy Canyon Road, Santa Barbara, CA 93105",
+        "website": "https://www.lpcbsa.org/ranchoalegre",
+        "description": "A scout camp in the Santa Ynez Valley near Santa Barbara offering summer camp and outdoor programs in the Los Padres National Forest."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.7180, 37.6210]
+      },
+      "properties": {
+        "name": "Rancho Los Mochos",
+        "type": "council_camp",
+        "council": "Mount Diablo Silverado Council",
+        "city": "Livermore",
+        "state": "CA",
+        "address": "8500 Mines Road, Livermore, CA 94550",
+        "website": "https://www.mdscbsa.org/rancholosmochos",
+        "description": "A 430-acre scout ranch in the hills east of Livermore offering camping, hiking, and outdoor programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.9900, 34.1710]
+      },
+      "properties": {
+        "name": "Trask Scout Reservation",
+        "type": "council_camp",
+        "council": "Greater Los Angeles Area Council",
+        "city": "Monrovia",
+        "state": "CA",
+        "address": "2100 N Canyon Blvd, Monrovia, CA 91016",
+        "website": "https://www.glaacbsa.org/trask",
+        "description": "A scout reservation in the San Gabriel Mountains above Monrovia offering camping and outdoor adventure programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-123.3610, 39.4090]
+      },
+      "properties": {
+        "name": "Wente Scout Reservation",
+        "type": "council_camp",
+        "council": "Redwood Empire Council",
+        "city": "Willits",
+        "state": "CA",
+        "address": "28100 Outlet Creek Road, Willits, CA 95490",
+        "website": "https://www.redwoodempirecouncil.org/wente",
+        "description": "A 2,800-acre scout reservation in Mendocino County offering summer camp, high adventure, and year-round programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.1540, 33.7600]
+      },
+      "properties": {
+        "name": "Youth Aquatic Center",
+        "type": "council_camp",
+        "council": "Long Beach Area Council",
+        "city": "Long Beach",
+        "state": "CA",
+        "address": "5437 E Paoli Way, Long Beach, CA 90803",
+        "website": "https://www.lbacbsa.org/yac",
+        "description": "A waterfront aquatic center in Long Beach offering rowing, sailing, and water sports programs for scouts."
+      }
     }
   ]
 }
