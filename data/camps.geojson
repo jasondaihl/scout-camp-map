@@ -3505,6 +3505,108 @@
         "website": "https://mac-bsa.org/camping-outdoors/council-facilities/camp-wa-kon-da/",
         "description": "40-acre Scout property in Bellevue operated by the Mid-America Council."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.8218, 44.5600]
+      },
+      "properties": {
+        "name": "Camp Bomazeen",
+        "type": "council_camp",
+        "council": "Pine Tree Council",
+        "city": "Belgrade",
+        "state": "ME",
+        "address": "656 Horse Point Rd, Belgrade, ME 04917",
+        "website": "https://www.pinetreescouting.org/camping/our-camps/",
+        "description": "226-acre Scout camp on a beachfront on Great Pond in the Belgrade Lakes Region."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.0529, 44.1077]
+      },
+      "properties": {
+        "name": "Camp Gustin",
+        "type": "council_camp",
+        "council": "Pine Tree Council",
+        "city": "Sabattus",
+        "state": "ME",
+        "address": "58 Loon Pond Rd, Sabattus, ME 04280",
+        "website": "https://androscogginlandtrust.org/camp-gustin-about/",
+        "description": "Former Scout camp on Loon Pond, now the Camp Gustin Conservation Area managed by Androscoggin Land Trust."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.8720, 43.5031]
+      },
+      "properties": {
+        "name": "Camp Nutter",
+        "type": "council_camp",
+        "council": "Pine Tree Council",
+        "city": "Acton",
+        "state": "ME",
+        "address": "East Shore Dr, Acton, ME 04001",
+        "website": "https://www.pinetreescouting.org/camping/our-camps/",
+        "description": "80-acre Scout camp on Loon Pond, opened in 1935 and owned by the Pine Tree Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.4691, 43.9497]
+      },
+      "properties": {
+        "name": "Camp William Hinds",
+        "type": "council_camp",
+        "council": "Pine Tree Council",
+        "city": "Raymond",
+        "state": "ME",
+        "address": "146 Plains Rd, Raymond, ME 04071",
+        "website": "https://camphinds.org/",
+        "description": "Nearly 300 acres of wilderness established in 1927 by the Pine Tree Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.5800, 44.8300]
+      },
+      "properties": {
+        "name": "Katahdin Scout Reservation (Camp Roosevelt)",
+        "type": "council_camp",
+        "council": "Katahdin Area Council",
+        "city": "Eddington",
+        "state": "ME",
+        "address": "45 Camp Roosevelt Rd, Eddington, ME 04428",
+        "website": "https://www.katahdinareabsa.org/CampRoosevelt",
+        "description": "1,800-acre Scout reservation at the base of Black Cap Mountain on Little Fitts Pond."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.7914, 46.1411]
+      },
+      "properties": {
+        "name": "Maine High Adventure",
+        "type": "high_adventure",
+        "council": "Katahdin Area Council",
+        "city": "Patten",
+        "state": "ME",
+        "address": "Matagamon High Adventure Base, Patten, ME 04765",
+        "website": "https://www.mainehighadventure.org",
+        "description": "High adventure base at the northeast corner of Baxter State Park on Grand Lake Matagamon."
+      }
     }
   ]
 }
