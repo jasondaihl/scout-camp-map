@@ -4797,6 +4797,125 @@
         "website": "https://www.lbacbsa.org/yac",
         "description": "A waterfront aquatic center in Long Beach offering rowing, sailing, and water sports programs for scouts."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.5021, 40.7514]
+      },
+      "properties": {
+        "name": "Ben Delatour Scout Ranch",
+        "type": "council_camp",
+        "council": "Adventure West Council",
+        "city": "Red Feather Lakes",
+        "state": "CO",
+        "address": "2331 County Road 68C, Red Feather Lakes, CO 80545",
+        "website": "https://awbsa.org/",
+        "description": "A working cattle ranch and scout camp 45 minutes northwest of Fort Collins in the Rocky Mountains, featuring horses, wranglers, and traditional Scouting programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.3764, 38.9480]
+      },
+      "properties": {
+        "name": "Camp Alexander",
+        "type": "council_camp",
+        "council": "Pathway to the Rockies Council",
+        "city": "Lake George",
+        "state": "CO",
+        "address": "2182 County Road 96, Lake George, CO 80827",
+        "website": "https://campalexandercolorado.org/",
+        "description": "Located in Eleven Mile Canyon within the Pike National Forest at 8,200-8,600 feet elevation, approximately 45 miles west of Colorado Springs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.3387, 39.9650]
+      },
+      "properties": {
+        "name": "Camp Patiya",
+        "type": "council_camp",
+        "council": "Adventure West Council",
+        "city": "Rollinsville",
+        "state": "CO",
+        "address": "7022 Flagstaff Road, Boulder, CO 80302",
+        "website": "https://awbsa.org/",
+        "description": "A 30-acre camping and day-use facility at 7,400 feet elevation on Flagstaff Mountain, featuring cabins, campsites, and training areas."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.0997, 39.7256]
+      },
+      "properties": {
+        "name": "Colorado Adventure Point",
+        "type": "council_camp",
+        "council": "Scouting Colorado",
+        "city": "Lakewood",
+        "state": "CO",
+        "address": "10455 W 6th Avenue, Suite 150, Lakewood, CO 80215",
+        "website": "https://coloradoadventurepoint.org/",
+        "description": "A 20,000-square-foot indoor adventure education facility featuring a two-story climbing wall, archery and air rifle ranges, and technology lab."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.0252, 39.0102]
+      },
+      "properties": {
+        "name": "Glen Aspen Ranch",
+        "type": "council_camp",
+        "council": "Pathway to the Rockies Council",
+        "city": "Woodland Park",
+        "state": "CO",
+        "address": "11050 Loy Creek Road, Woodland Park, CO 80863",
+        "website": "https://pathwaytotherockies.org/glen-aspen-ranch/",
+        "description": "A 200-acre ranch on the outskirts of Woodland Park used for outdoor training courses including BALOO, IOLS, NYLT, and Wood Badge."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.5021, 40.7514]
+      },
+      "properties": {
+        "name": "Jack Nicol Cub Scout Camp",
+        "type": "council_camp",
+        "council": "Adventure West Council",
+        "city": "Greeley",
+        "state": "CO",
+        "address": "2331 County Road 68C, Red Feather Lakes, CO 80545",
+        "website": "https://awbsa.org/cub-world/",
+        "description": "A Cub Scout camp located within Ben Delatour Scout Ranch, featuring the Cub World program for younger scouts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.5378, 39.1826]
+      },
+      "properties": {
+        "name": "McNeil Scout Ranch at Peaceful Valley",
+        "type": "council_camp",
+        "council": "Scouting Colorado",
+        "city": "Elbert",
+        "state": "CO",
+        "address": "22799 Elbert Road, Elbert, CO 80106",
+        "website": "https://scoutingcolorado.org/",
+        "description": "A 3,300-acre scout ranch at 7,000 feet elevation near Elbert, renamed in 2021 in honor of former Council President Charles S. McNeil."
+      }
     }
   ]
 }
