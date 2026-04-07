@@ -3777,6 +3777,125 @@
         "website": "https://mac-bsa.org/little-sioux-scout-ranch/",
         "description": "Scout ranch in Iowa's Loess Hills, about 60 miles north of Omaha."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.9666, 30.8781]
+      },
+      "properties": {
+        "name": "Avondale Scout Reservation",
+        "type": "council_camp",
+        "council": "Istrouma Area Council",
+        "city": "Clinton",
+        "state": "LA",
+        "address": "14433 LA-10, Clinton, LA 70722",
+        "website": "https://www.iacbsa.org/avondalesr",
+        "description": "A 1,665-acre reservation of evergreen and hardwood forest, fields, lakes, and wildlife in East Feliciana Parish."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.2121, 31.6977]
+      },
+      "properties": {
+        "name": "Camp Attakapas",
+        "type": "council_camp",
+        "council": "Louisiana Purchase Council",
+        "city": "Trout",
+        "state": "LA",
+        "address": "795 Boy Scout Road, Trout, LA 71371",
+        "website": "https://www.louisianapurchasecouncil.org/campattakapas",
+        "description": "Over 150 acres in LaSalle Parish with a 15-acre lake for boating and fishing, approximately 35 miles from Alexandria."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.2647, 30.4642]
+      },
+      "properties": {
+        "name": "Camp Carruth",
+        "type": "council_camp",
+        "council": "Istrouma Area Council",
+        "city": "Port Allen",
+        "state": "LA",
+        "address": "Rosedale Road, Port Allen, LA 70767",
+        "website": "https://www.istroumascouting.org/campcarruth",
+        "description": "A 99-acre property in West Baton Rouge Parish designed for Cub Scout Packs and Scouts BSA Troops, about 20 minutes from Baton Rouge."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.3277, 30.4256]
+      },
+      "properties": {
+        "name": "Camp Edgewood",
+        "type": "council_camp",
+        "council": "Calcasieu Area Council",
+        "city": "DeQuincy",
+        "state": "LA",
+        "address": "3419 Camp Edgewood Road, DeQuincy, LA 70633",
+        "website": "https://www.calcasieubsa.org/campedgewood",
+        "description": "A scout camp in Beauregard Parish near DeQuincy operated by the Calcasieu Area Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.3599, 32.6191]
+      },
+      "properties": {
+        "name": "Camp T.L. James",
+        "type": "council_camp",
+        "council": "Louisiana Purchase Council",
+        "city": "Downsville",
+        "state": "LA",
+        "address": "105 Camp TL James Road, Downsville, LA 71234",
+        "website": "https://www.louisianapurchasecouncil.org/TLJames",
+        "description": "Approximately 1,142 acres in Union Parish, off Highway 15, owned and operated by the Louisiana Purchase Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.8663, 32.2082]
+      },
+      "properties": {
+        "name": "Kinsey Scout Reservation",
+        "type": "council_camp",
+        "council": "Norwela Council",
+        "city": "Stonewall",
+        "state": "LA",
+        "address": "3492 US Highway 171, Stonewall, LA 71078",
+        "website": "https://norwela.org/kinsey-scout-camp/",
+        "description": "A 1,600-acre scout reservation in De Soto Parish operated by the Norwela Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.3115, 30.8553]
+      },
+      "properties": {
+        "name": "Lost Bayou Scout Camp",
+        "type": "council_camp",
+        "council": "Evangeline Area Council",
+        "city": "St. Landry",
+        "state": "LA",
+        "address": "1771 Mountain Bayou Road, St. Landry, LA 71367",
+        "website": "https://www.eacscouting.org/mountain",
+        "description": "Located near Ville Platte off LA Highway 167 and I-49, also known as Mountain Bayou Scout Camp."
+      }
     }
   ]
 }
