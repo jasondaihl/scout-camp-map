@@ -3896,6 +3896,108 @@
         "website": "https://www.eacscouting.org/mountain",
         "description": "Located near Ville Platte off LA Highway 167 and I-49, also known as Mountain Bayou Scout Camp."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.1954, 38.8716]
+      },
+      "properties": {
+        "name": "Brown Memorial Camp",
+        "type": "council_camp",
+        "council": "Coronado Area Council",
+        "city": "Abilene",
+        "state": "KS",
+        "address": "1091 1900 Avenue, Abilene, KS 67410",
+        "website": "https://www.coronadoscout.org/brown/",
+        "description": "Established in 1919 when Cleyson L. Brown donated 40 acres, offering a climbing wall, aquatics, shooting sports, and ecology programs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-94.8792, 39.0667]
+      },
+      "properties": {
+        "name": "Camp Theodore Naish",
+        "type": "council_camp",
+        "council": "Heart of America Council",
+        "city": "Bonner Springs",
+        "state": "KS",
+        "address": "1100 Martinek Lane, Kansas City, KS 66111",
+        "website": "https://www.hoac-bsa.org/naish",
+        "description": "Over 900 acres above the Kaw River Valley, a Scout Life Magazine Top 10 summer camp offering 40+ merit badges and high adventure treks."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.1422, 39.6397]
+      },
+      "properties": {
+        "name": "Dane G. Hansen Scout Reservation",
+        "type": "council_camp",
+        "council": "Coronado Area Council",
+        "city": "Kirwin",
+        "state": "KS",
+        "address": "1004 S Kirwin Lake Road, Kirwin, KS 67644",
+        "website": "https://www.coronadoscout.org/hansen/",
+        "description": "Established in 1965 on 270 acres adjoining Kirwin Reservoir, offering 35+ merit badges, waterfront activities, and shooting sports."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-95.4022, 39.1974]
+      },
+      "properties": {
+        "name": "Falley Scout Reservation",
+        "type": "council_camp",
+        "council": "Jayhawk Area Council",
+        "city": "Oskaloosa",
+        "state": "KS",
+        "address": "8602 Kingman Road, Oskaloosa, KS 66066",
+        "website": "https://jayhawkcouncil.org/fsr/",
+        "description": "A 340+ acre reservation in Jefferson County featuring Camp Jayhawk for Scouts BSA and Camp Delaware for Cub Scouts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.9192, 37.8187]
+      },
+      "properties": {
+        "name": "Mandan Scout Camp",
+        "type": "council_camp",
+        "council": "Quivira Council",
+        "city": "Wright",
+        "state": "KS",
+        "address": "11639 Garnett Road, Wright, KS 67882",
+        "website": "https://quivira.org/camping-with-quivira/",
+        "description": "Located on Ford County Lake northeast of Dodge City, serving scouts in the western part of the Quivira Council."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.2087, 37.2363]
+      },
+      "properties": {
+        "name": "Quivira Scout Ranch",
+        "type": "council_camp",
+        "council": "Quivira Council",
+        "city": "Sedan",
+        "state": "KS",
+        "address": "1781 Road 19, Sedan, KS 67361",
+        "website": "https://quivirascoutranch.com/",
+        "description": "Nestled in the Chautauqua Flint Hills featuring Murray Gill Lake, a 475-acre private lake and the largest BSA council-owned lake in the US."
+      }
     }
   ]
 }
