@@ -262,12 +262,20 @@
       function attachListeners() {
         var backToTop = document.getElementById("back-to-top");
 
-        container.addEventListener("scroll", function () {
-          backToTop.classList.toggle("visible", container.scrollTop > 400);
-        });
+        function checkScroll() {
+          var scrolled =
+            container.scrollTop > 400 ||
+            window.scrollY > 400 ||
+            document.documentElement.scrollTop > 400;
+          backToTop.classList.toggle("visible", scrolled);
+        }
+
+        container.addEventListener("scroll", checkScroll);
+        window.addEventListener("scroll", checkScroll);
 
         backToTop.addEventListener("click", function () {
           container.scrollTo({ top: 0, behavior: "smooth" });
+          window.scrollTo({ top: 0, behavior: "smooth" });
         });
 
         document
