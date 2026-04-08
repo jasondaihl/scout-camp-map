@@ -309,3 +309,17 @@ body {
 .camp-card a:hover {
   text-decoration: underline;
 }
+
+.region-divider {
+  margin: 40px 0 24px;
+  padding-top: 24px;
+  border-top: 3px solid #1B5E20;
+}
+
+.region-divider h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #1B5E20;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

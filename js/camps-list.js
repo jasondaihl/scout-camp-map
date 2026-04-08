@@ -76,23 +76,102 @@
     return html;
   }
 
+  var territories = { PR: true };
+
+  function classifyFeature(props) {
+    var country = props.country || "USA";
+    if (country !== "USA") return "international";
+    if (territories[props.state]) return "territory";
+    return "state";
+  }
+
+  function groupLabel(key, kind) {
+    if (kind === "international") return key;
+    return stateNames[key] || key;
+  }
+
+  function buildSection(key, camps, kind) {
+    var label = groupLabel(key, kind);
+    var id = "state-" + key.replace(/\s+/g, "-");
+    var html = '<section class="state-section" id="' + id + '">';
+    html +=
+      "<h2>" +
+      label +
+      ' <span class="state-count">' +
+      camps.length +
+      "</span></h2>";
+    html += '<div class="camp-grid">';
+    camps
+      .sort(function (a, b) {
+        return a.name.localeCompare(b.name);
+      })
+      .forEach(function (props) {
+        html += buildCampCard(props);
+      });
+    html += "</div></section>";
+    return html;
+  }
+
+  function buildNavLink(key, camps, kind) {
+    var label = groupLabel(key, kind);
+    var id = "state-" + key.replace(/\s+/g, "-");
+    return (
+      '<a href="#' + id + '">' + label + " (" + camps.length + ")</a>"
+    );
+  }
+
   fetch("data/camps.geojson")
     .then(function (response) {
       return response.json();
     })
     .then(function (data) {
       var byState = {};
+      var byTerritory = {};
+      var byCountry = {};
+
       data.features.forEach(function (f) {
-        var state = f.properties.state || "Other";
-        if (!byState[state]) byState[state] = [];
-        byState[state].push(f.properties);
+        var props = f.properties;
+        var kind = classifyFeature(props);
+        if (kind === "international") {
+          var country = props.country;
+          if (!byCountry[country]) byCountry[country] = [];
+          byCountry[country].push(props);
+        } else if (kind === "territory") {
+          var terr = props.state;
+          if (!byTerritory[terr]) byTerritory[terr] = [];
+          byTerritory[terr].push(props);
+        } else {
+          var state = props.state;
+          if (!byState[state]) byState[state] = [];
+          byState[state].push(props);
+        }
       });
 
       var sortedStates = Object.keys(byState).sort(function (a, b) {
-        var nameA = stateNames[a] || a;
-        var nameB = stateNames[b] || b;
-        return nameA.localeCompare(nameB);
+        return (stateNames[a] || a).localeCompare(stateNames[b] || b);
       });
+      var sortedTerritories = Object.keys(byTerritory).sort(function (a, b) {
+        return (stateNames[a] || a).localeCompare(stateNames[b] || b);
+      });
+      var sortedCountries = Object.keys(byCountry).sort();
+
+      var stateCount = sortedStates.length;
+      var territoryCount = sortedTerritories.length;
+      var countryCount = sortedCountries.length;
+
+      // Build summary line
+      var parts = [];
+      parts.push(stateCount + " state" + (stateCount !== 1 ? "s" : ""));
+      if (territoryCount > 0) {
+        parts.push(
+          territoryCount + " territor" + (territoryCount !== 1 ? "ies" : "y")
+        );
+      }
+      if (countryCount > 0) {
+        parts.push(
+          countryCount + " international location" + (countryCount !== 1 ? "s" : "")
+        );
+      }
 
       var container = document.getElementById("camp-list");
       var html = '<div class="list-header">';
@@ -101,46 +180,39 @@
         '<p class="camp-count">' +
         data.features.length +
         " camps across " +
-        sortedStates.length +
-        " states</p>";
+        parts.join(", ") +
+        "</p>";
       html += "</div>";
 
+      // Navigation
       html += '<nav class="state-nav">';
-      sortedStates.forEach(function (state) {
-        var label = stateNames[state] || state;
-        html +=
-          '<a href="#state-' +
-          state +
-          '">' +
-          label +
-          " (" +
-          byState[state].length +
-          ")</a>";
+      sortedStates.forEach(function (s) {
+        html += buildNavLink(s, byState[s], "state");
+      });
+      sortedTerritories.forEach(function (t) {
+        html += buildNavLink(t, byTerritory[t], "territory");
+      });
+      sortedCountries.forEach(function (c) {
+        html += buildNavLink(c, byCountry[c], "international");
       });
       html += "</nav>";
 
-      sortedStates.forEach(function (state) {
-        var label = stateNames[state] || state;
-        html +=
-          '<section class="state-section" id="state-' + state + '">';
-        html +=
-          "<h2>" +
-          label +
-          ' <span class="state-count">' +
-          byState[state].length +
-          "</span></h2>";
-        html += '<div class="camp-grid">';
-
-        byState[state]
-          .sort(function (a, b) {
-            return a.name.localeCompare(b.name);
-          })
-          .forEach(function (props) {
-            html += buildCampCard(props);
-          });
-
-        html += "</div></section>";
+      // Sections
+      sortedStates.forEach(function (s) {
+        html += buildSection(s, byState[s], "state");
       });
+      if (sortedTerritories.length > 0) {
+        html += '<div class="region-divider"><h2>U.S. Territories</h2></div>';
+        sortedTerritories.forEach(function (t) {
+          html += buildSection(t, byTerritory[t], "territory");
+        });
+      }
+      if (sortedCountries.length > 0) {
+        html += '<div class="region-divider"><h2>International</h2></div>';
+        sortedCountries.forEach(function (c) {
+          html += buildSection(c, byCountry[c], "international");
+        });
+      }
 
       container.innerHTML = html;
     });
