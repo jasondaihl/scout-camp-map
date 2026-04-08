@@ -262,9 +262,15 @@
       function attachListeners() {
         var backToTop = document.getElementById("back-to-top");
 
-        window.addEventListener("scroll", function () {
-          backToTop.classList.toggle("visible", window.scrollY > 400);
-        });
+        function checkScroll() {
+          var scrollTop =
+            document.documentElement.scrollTop ||
+            document.body.scrollTop ||
+            window.pageYOffset ||
+            0;
+          backToTop.classList.toggle("visible", scrollTop > 400);
+        }
+        document.addEventListener("scroll", checkScroll, { passive: true });
 
         backToTop.addEventListener("click", function () {
           window.scrollTo({ top: 0, behavior: "smooth" });
