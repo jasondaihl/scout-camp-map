@@ -271,6 +271,8 @@ body.page-map {
 }
 
 .state-section h2 {
+  display: flex;
+  align-items: center;
   font-size: 20px;
   color: #1B5E20;
   border-bottom: 2px solid #1B5E20;
@@ -278,10 +280,36 @@ body.page-map {
   margin: 0 0 16px;
 }
 
-.state-count {
-  font-size: 14px;
-  font-weight: 400;
-  color: #888;
+.type-counts {
+  margin-left: auto;
+  display: flex;
+  gap: 6px;
+}
+
+.type-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 26px;
+  height: 26px;
+  padding: 0 6px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.type-count.high-adventure {
+  background-color: #d4a017;
+}
+
+.type-count.council-high-adventure {
+  background-color: #9E9E9E;
+}
+
+.type-count.council-camp {
+  background-color: #2E7D32;
 }
 
 .camp-grid {

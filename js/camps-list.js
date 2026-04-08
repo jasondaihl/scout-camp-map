@@ -82,15 +82,36 @@
     return "group-" + str.replace(/[^a-zA-Z0-9]+/g, "-").toLowerCase();
   }
 
+  function countByType(camps) {
+    var counts = { high_adventure: 0, council_high_adventure: 0, council_camp: 0 };
+    camps.forEach(function (c) { counts[c.type] = (counts[c.type] || 0) + 1; });
+    return counts;
+  }
+
+  function buildCountBadges(camps) {
+    var counts = countByType(camps);
+    var html = '<span class="type-counts">';
+    if (counts.high_adventure > 0) {
+      html += '<span class="type-count high-adventure">' + counts.high_adventure + '</span>';
+    }
+    if (counts.council_high_adventure > 0) {
+      html += '<span class="type-count council-high-adventure">' + counts.council_high_adventure + '</span>';
+    }
+    if (counts.council_camp > 0) {
+      html += '<span class="type-count council-camp">' + counts.council_camp + '</span>';
+    }
+    html += '</span>';
+    return html;
+  }
+
   function buildSection(key, camps, showCouncil) {
     var id = toId(key);
     var html = '<section class="state-section" id="' + id + '">';
     html +=
       "<h2>" +
       key +
-      ' <span class="state-count">' +
-      camps.length +
-      "</span></h2>";
+      buildCountBadges(camps) +
+      "</h2>";
     html += '<div class="camp-grid">';
     camps
       .sort(function (a, b) {
