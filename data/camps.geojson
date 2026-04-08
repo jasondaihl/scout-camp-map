@@ -4255,7 +4255,7 @@
       },
       "properties": {
         "name": "Maine High Adventure",
-        "type": "high_adventure",
+        "type": "council_high_adventure",
         "council": "Katahdin Area Council",
         "city": "Patten",
         "state": "ME",
