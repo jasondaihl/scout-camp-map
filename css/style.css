@@ -196,26 +196,27 @@ body {
 
 .state-nav {
   display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
   justify-content: center;
   padding: 12px 0 20px;
   border-bottom: 1px solid #e0e0e0;
   margin-bottom: 24px;
 }
 
-.state-nav a {
+.state-nav select {
+  font-size: 15px;
+  padding: 8px 12px;
+  border: 2px solid #1B5E20;
+  border-radius: 6px;
+  background: #fff;
   color: #1B5E20;
-  text-decoration: none;
-  font-size: 13px;
-  padding: 3px 8px;
-  border-radius: 4px;
-  background: #e8f5e9;
-  white-space: nowrap;
+  cursor: pointer;
+  min-width: 260px;
+  font-family: inherit;
 }
 
-.state-nav a:hover {
-  background: #c8e6c9;
+.state-nav select:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(27, 94, 32, 0.2);
 }
 
 .state-section {
@@ -308,6 +309,35 @@ body {
 
 .camp-card a:hover {
   text-decoration: underline;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: #1B5E20;
+  color: #fff;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  z-index: 999;
+}
+
+#back-to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#back-to-top:hover {
+  background: #2E7D32;
 }
 
 .region-divider {

@@ -112,11 +112,11 @@
     return html;
   }
 
-  function buildNavLink(key, camps, kind) {
-    var label = groupLabel(key, kind);
+  function buildNavOption(key, camps, kind, groupLabel_) {
+    var label = groupLabel_(key, kind);
     var id = "state-" + key.replace(/\s+/g, "-");
     return (
-      '<a href="#' + id + '">' + label + " (" + camps.length + ")</a>"
+      '<option value="' + id + '">' + label + " (" + camps.length + ")</option>"
     );
   }
 
@@ -186,15 +186,28 @@
 
       // Navigation
       html += '<nav class="state-nav">';
+      html += '<select id="state-select">';
+      html += '<option value="">Jump to state...</option>';
+      html += '<optgroup label="States">';
       sortedStates.forEach(function (s) {
-        html += buildNavLink(s, byState[s], "state");
+        html += buildNavOption(s, byState[s], "state", groupLabel);
       });
-      sortedTerritories.forEach(function (t) {
-        html += buildNavLink(t, byTerritory[t], "territory");
-      });
-      sortedCountries.forEach(function (c) {
-        html += buildNavLink(c, byCountry[c], "international");
-      });
+      html += "</optgroup>";
+      if (sortedTerritories.length > 0) {
+        html += '<optgroup label="U.S. Territories">';
+        sortedTerritories.forEach(function (t) {
+          html += buildNavOption(t, byTerritory[t], "territory", groupLabel);
+        });
+        html += "</optgroup>";
+      }
+      if (sortedCountries.length > 0) {
+        html += '<optgroup label="International">';
+        sortedCountries.forEach(function (c) {
+          html += buildNavOption(c, byCountry[c], "international", groupLabel);
+        });
+        html += "</optgroup>";
+      }
+      html += "</select>";
       html += "</nav>";
 
       // Sections
@@ -215,5 +228,25 @@
       }
 
       container.innerHTML = html;
+
+      var backToTop = document.getElementById("back-to-top");
+      var campList = document.getElementById("camp-list");
+
+      campList.addEventListener("scroll", function () {
+        backToTop.classList.toggle("visible", campList.scrollTop > 400);
+      });
+
+      backToTop.addEventListener("click", function () {
+        campList.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      document.getElementById("state-select").addEventListener("change", function () {
+        var val = this.value;
+        if (val) {
+          var el = document.getElementById(val);
+          if (el) el.scrollIntoView({ behavior: "smooth" });
+          this.value = "";
+        }
+      });
     });
 })();
