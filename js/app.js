@@ -139,7 +139,7 @@
         },
       );
       L.control
-        .layers(null, overlays, { collapsed: true, position: "topright" })
+        .layers(null, overlays, { collapsed: false, position: "topright" })
         .addTo(map);
     });
 })();
