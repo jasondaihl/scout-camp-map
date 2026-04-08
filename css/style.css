@@ -39,6 +39,7 @@ body.page-map {
   font-size: 18px;
   font-weight: 600;
   flex: 1;
+  white-space: nowrap;
 }
 
 .header-nav {
