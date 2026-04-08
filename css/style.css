@@ -21,6 +21,8 @@ body {
   color: #fff;
   flex-shrink: 0;
   z-index: 1000;
+  position: sticky;
+  top: 0;
 }
 
 .header-emoji {
@@ -163,7 +165,6 @@ body {
 /* Camp list page */
 #camp-list {
   flex: 1;
-  overflow-y: auto;
   padding: 0 24px 40px;
   max-width: 1200px;
   margin: 0 auto;
@@ -263,14 +264,14 @@ body {
 }
 
 .state-section {
-  margin-bottom: 32px;
+  margin-bottom: 26px;
 }
 
 .state-section h2 {
   font-size: 20px;
   color: #1B5E20;
   border-bottom: 2px solid #1B5E20;
-  padding-bottom: 6px;
+  padding: 6px 0;
   margin: 0 0 16px;
 }
 

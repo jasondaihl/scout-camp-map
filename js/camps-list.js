@@ -255,26 +255,18 @@
 
       function update() {
         container.innerHTML = render(allProps, currentMode);
-        container.scrollTop = 0;
+        window.scrollTo(0, 0);
         attachListeners();
       }
 
       function attachListeners() {
         var backToTop = document.getElementById("back-to-top");
 
-        function checkScroll() {
-          var scrolled =
-            container.scrollTop > 400 ||
-            window.scrollY > 400 ||
-            document.documentElement.scrollTop > 400;
-          backToTop.classList.toggle("visible", scrolled);
-        }
-
-        container.addEventListener("scroll", checkScroll);
-        window.addEventListener("scroll", checkScroll);
+        window.addEventListener("scroll", function () {
+          backToTop.classList.toggle("visible", window.scrollY > 400);
+        });
 
         backToTop.addEventListener("click", function () {
-          container.scrollTo({ top: 0, behavior: "smooth" });
           window.scrollTo({ top: 0, behavior: "smooth" });
         });
 
