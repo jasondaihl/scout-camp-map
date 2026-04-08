@@ -360,13 +360,13 @@ body.page-map {
 
 #back-to-top {
   position: fixed;
-  bottom: 24px;
-  right: 24px;
+  bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+  right: calc(24px + env(safe-area-inset-right, 0px));
   width: 44px;
   height: 44px;
   border: none;
   border-radius: 50%;
-  background: #1B5E20;
+  background: red;
   color: #fff;
   font-size: 22px;
   line-height: 1;
