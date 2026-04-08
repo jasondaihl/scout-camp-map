@@ -24,8 +24,8 @@ body.page-map {
   color: #fff;
   flex-shrink: 0;
   z-index: 1000;
-  /* position: sticky; */
-  /* top: 0; */
+  position: sticky;
+  top: 0;
 }
 
 .header-emoji {
@@ -359,13 +359,23 @@ body.page-map {
 }
 
 #back-to-top {
-  width: 200px;
-  height: 200px;
-  border: 5px solid blue;
-  background: red;
+  position: fixed;
+  bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: #1B5E20;
   color: #fff;
-  font-size: 40px;
-  margin: 20px auto;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  z-index: 999;
 }
 
 #back-to-top.visible {
