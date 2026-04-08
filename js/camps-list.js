@@ -21,6 +21,8 @@
     council_camp: "Council Camp",
   };
 
+  var territories = { PR: true };
+
   function typeClass(type) {
     if (type === "high_adventure") return "high-adventure";
     if (type === "council_high_adventure") return "council-high-adventure";
@@ -76,27 +78,16 @@
     return html;
   }
 
-  var territories = { PR: true };
-
-  function classifyFeature(props) {
-    var country = props.country || "USA";
-    if (country !== "USA") return "international";
-    if (territories[props.state]) return "territory";
-    return "state";
+  function toId(str) {
+    return "group-" + str.replace(/[^a-zA-Z0-9]+/g, "-").toLowerCase();
   }
 
-  function groupLabel(key, kind) {
-    if (kind === "international") return key;
-    return stateNames[key] || key;
-  }
-
-  function buildSection(key, camps, kind) {
-    var label = groupLabel(key, kind);
-    var id = "state-" + key.replace(/\s+/g, "-");
+  function buildSection(key, camps) {
+    var id = toId(key);
     var html = '<section class="state-section" id="' + id + '">';
     html +=
       "<h2>" +
-      label +
+      key +
       ' <span class="state-count">' +
       camps.length +
       "</span></h2>";
@@ -112,12 +103,142 @@
     return html;
   }
 
-  function buildNavOption(key, camps, kind, groupLabel_) {
-    var label = groupLabel_(key, kind);
-    var id = "state-" + key.replace(/\s+/g, "-");
-    return (
-      '<option value="' + id + '">' + label + " (" + camps.length + ")</option>"
-    );
+  function groupByState(allProps) {
+    var byState = {};
+    var byTerritory = {};
+    var byCountry = {};
+
+    allProps.forEach(function (props) {
+      var country = props.country || "USA";
+      if (country !== "USA") {
+        if (!byCountry[country]) byCountry[country] = [];
+        byCountry[country].push(props);
+      } else if (territories[props.state]) {
+        var label = stateNames[props.state] || props.state;
+        if (!byTerritory[label]) byTerritory[label] = [];
+        byTerritory[label].push(props);
+      } else {
+        var label = stateNames[props.state] || props.state || "Unknown";
+        if (!byState[label]) byState[label] = [];
+        byState[label].push(props);
+      }
+    });
+
+    var groups = [];
+    var sortedStates = Object.keys(byState).sort();
+    var sortedTerritories = Object.keys(byTerritory).sort();
+    var sortedCountries = Object.keys(byCountry).sort();
+
+    sortedStates.forEach(function (s) {
+      groups.push({ label: s, camps: byState[s] });
+    });
+    if (sortedTerritories.length > 0) {
+      groups.push({ divider: "U.S. Territories" });
+      sortedTerritories.forEach(function (t) {
+        groups.push({ label: t, camps: byTerritory[t] });
+      });
+    }
+    if (sortedCountries.length > 0) {
+      groups.push({ divider: "International" });
+      sortedCountries.forEach(function (c) {
+        groups.push({ label: c, camps: byCountry[c] });
+      });
+    }
+
+    return {
+      groups: groups,
+      summary: buildSummary(allProps.length, sortedStates.length, sortedTerritories.length, sortedCountries.length),
+      selectLabel: "Jump to state...",
+    };
+  }
+
+  function groupByCouncil(allProps) {
+    var byCouncil = {};
+    allProps.forEach(function (props) {
+      var council = props.council || "National / Unaffiliated";
+      if (!byCouncil[council]) byCouncil[council] = [];
+      byCouncil[council].push(props);
+    });
+
+    var sorted = Object.keys(byCouncil).sort();
+    var groups = [];
+    sorted.forEach(function (c) {
+      groups.push({ label: c, camps: byCouncil[c] });
+    });
+
+    return {
+      groups: groups,
+      summary: allProps.length + " camps across " + sorted.length + " councils",
+      selectLabel: "Jump to council...",
+    };
+  }
+
+  function buildSummary(total, stateCount, territoryCount, countryCount) {
+    var parts = [];
+    parts.push(stateCount + " state" + (stateCount !== 1 ? "s" : ""));
+    if (territoryCount > 0) {
+      parts.push(
+        territoryCount + " territor" + (territoryCount !== 1 ? "ies" : "y")
+      );
+    }
+    if (countryCount > 0) {
+      parts.push(
+        countryCount +
+          " international location" +
+          (countryCount !== 1 ? "s" : "")
+      );
+    }
+    return total + " camps across " + parts.join(", ");
+  }
+
+  function render(allProps, mode) {
+    var result = mode === "council" ? groupByCouncil(allProps) : groupByState(allProps);
+    var groups = result.groups;
+
+    var html = '<div class="list-header">';
+    html += "<h2>Camp Directory</h2>";
+    html += '<p class="camp-count">' + result.summary + "</p>";
+    html += "</div>";
+
+    // Sort toggle + jump select
+    html += '<nav class="state-nav">';
+    html += '<div class="sort-toggle">';
+    html += '<span class="sort-label">Group by:</span>';
+    html +=
+      '<button class="sort-btn' +
+      (mode === "state" ? " active" : "") +
+      '" data-sort="state">State</button>';
+    html +=
+      '<button class="sort-btn' +
+      (mode === "council" ? " active" : "") +
+      '" data-sort="council">Council</button>';
+    html += "</div>";
+    html += '<select id="state-select">';
+    html += '<option value="">' + result.selectLabel + "</option>";
+    groups.forEach(function (g) {
+      if (g.divider) return;
+      html +=
+        '<option value="' +
+        toId(g.label) +
+        '">' +
+        g.label +
+        " (" +
+        g.camps.length +
+        ")</option>";
+    });
+    html += "</select>";
+    html += "</nav>";
+
+    // Sections
+    groups.forEach(function (g) {
+      if (g.divider) {
+        html += '<div class="region-divider"><h2>' + g.divider + "</h2></div>";
+      } else {
+        html += buildSection(g.label, g.camps);
+      }
+    });
+
+    return html;
   }
 
   fetch("data/camps.geojson")
@@ -125,128 +246,53 @@
       return response.json();
     })
     .then(function (data) {
-      var byState = {};
-      var byTerritory = {};
-      var byCountry = {};
-
-      data.features.forEach(function (f) {
-        var props = f.properties;
-        var kind = classifyFeature(props);
-        if (kind === "international") {
-          var country = props.country;
-          if (!byCountry[country]) byCountry[country] = [];
-          byCountry[country].push(props);
-        } else if (kind === "territory") {
-          var terr = props.state;
-          if (!byTerritory[terr]) byTerritory[terr] = [];
-          byTerritory[terr].push(props);
-        } else {
-          var state = props.state;
-          if (!byState[state]) byState[state] = [];
-          byState[state].push(props);
-        }
+      var allProps = data.features.map(function (f) {
+        return f.properties;
       });
 
-      var sortedStates = Object.keys(byState).sort(function (a, b) {
-        return (stateNames[a] || a).localeCompare(stateNames[b] || b);
-      });
-      var sortedTerritories = Object.keys(byTerritory).sort(function (a, b) {
-        return (stateNames[a] || a).localeCompare(stateNames[b] || b);
-      });
-      var sortedCountries = Object.keys(byCountry).sort();
-
-      var stateCount = sortedStates.length;
-      var territoryCount = sortedTerritories.length;
-      var countryCount = sortedCountries.length;
-
-      // Build summary line
-      var parts = [];
-      parts.push(stateCount + " state" + (stateCount !== 1 ? "s" : ""));
-      if (territoryCount > 0) {
-        parts.push(
-          territoryCount + " territor" + (territoryCount !== 1 ? "ies" : "y")
-        );
-      }
-      if (countryCount > 0) {
-        parts.push(
-          countryCount + " international location" + (countryCount !== 1 ? "s" : "")
-        );
-      }
-
+      var currentMode = "state";
       var container = document.getElementById("camp-list");
-      var html = '<div class="list-header">';
-      html += "<h2>Camp Directory</h2>";
-      html +=
-        '<p class="camp-count">' +
-        data.features.length +
-        " camps across " +
-        parts.join(", ") +
-        "</p>";
-      html += "</div>";
 
-      // Navigation
-      html += '<nav class="state-nav">';
-      html += '<select id="state-select">';
-      html += '<option value="">Jump to state...</option>';
-      html += '<optgroup label="States">';
-      sortedStates.forEach(function (s) {
-        html += buildNavOption(s, byState[s], "state", groupLabel);
-      });
-      html += "</optgroup>";
-      if (sortedTerritories.length > 0) {
-        html += '<optgroup label="U.S. Territories">';
-        sortedTerritories.forEach(function (t) {
-          html += buildNavOption(t, byTerritory[t], "territory", groupLabel);
-        });
-        html += "</optgroup>";
+      function update() {
+        container.innerHTML = render(allProps, currentMode);
+        container.scrollTop = 0;
+        attachListeners();
       }
-      if (sortedCountries.length > 0) {
-        html += '<optgroup label="International">';
-        sortedCountries.forEach(function (c) {
-          html += buildNavOption(c, byCountry[c], "international", groupLabel);
-        });
-        html += "</optgroup>";
-      }
-      html += "</select>";
-      html += "</nav>";
 
-      // Sections
-      sortedStates.forEach(function (s) {
-        html += buildSection(s, byState[s], "state");
-      });
-      if (sortedTerritories.length > 0) {
-        html += '<div class="region-divider"><h2>U.S. Territories</h2></div>';
-        sortedTerritories.forEach(function (t) {
-          html += buildSection(t, byTerritory[t], "territory");
+      function attachListeners() {
+        var backToTop = document.getElementById("back-to-top");
+
+        container.addEventListener("scroll", function () {
+          backToTop.classList.toggle("visible", container.scrollTop > 400);
         });
-      }
-      if (sortedCountries.length > 0) {
-        html += '<div class="region-divider"><h2>International</h2></div>';
-        sortedCountries.forEach(function (c) {
-          html += buildSection(c, byCountry[c], "international");
+
+        backToTop.addEventListener("click", function () {
+          container.scrollTo({ top: 0, behavior: "smooth" });
+        });
+
+        document
+          .getElementById("state-select")
+          .addEventListener("change", function () {
+            var val = this.value;
+            if (val) {
+              var el = document.getElementById(val);
+              if (el) el.scrollIntoView({ behavior: "smooth" });
+              this.value = "";
+            }
+          });
+
+        var buttons = document.querySelectorAll(".sort-btn");
+        buttons.forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            var newMode = this.getAttribute("data-sort");
+            if (newMode !== currentMode) {
+              currentMode = newMode;
+              update();
+            }
+          });
         });
       }
 
-      container.innerHTML = html;
-
-      var backToTop = document.getElementById("back-to-top");
-      var campList = document.getElementById("camp-list");
-
-      campList.addEventListener("scroll", function () {
-        backToTop.classList.toggle("visible", campList.scrollTop > 400);
-      });
-
-      backToTop.addEventListener("click", function () {
-        campList.scrollTo({ top: 0, behavior: "smooth" });
-      });
-
-      document.getElementById("state-select").addEventListener("change", function () {
-        var val = this.value;
-        if (val) {
-          var el = document.getElementById(val);
-          if (el) el.scrollIntoView({ behavior: "smooth" });
-          this.value = "";
-        }
-      });
+      update();
     });
 })();

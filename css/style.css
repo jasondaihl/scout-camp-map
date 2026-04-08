@@ -196,10 +196,54 @@ body {
 
 .state-nav {
   display: flex;
+  align-items: center;
   justify-content: center;
+  gap: 16px;
   padding: 12px 0 20px;
   border-bottom: 1px solid #e0e0e0;
   margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.sort-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.sort-label {
+  font-size: 14px;
+  color: #555;
+  margin-right: 4px;
+}
+
+.sort-btn {
+  font-size: 14px;
+  font-family: inherit;
+  padding: 6px 14px;
+  border: 2px solid #1B5E20;
+  background: #fff;
+  color: #1B5E20;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.sort-btn:first-of-type {
+  border-radius: 6px 0 0 6px;
+}
+
+.sort-btn:last-of-type {
+  border-radius: 0 6px 6px 0;
+  border-left: none;
+}
+
+.sort-btn.active {
+  background: #1B5E20;
+  color: #fff;
+}
+
+.sort-btn:hover:not(.active) {
+  background: #e8f5e9;
 }
 
 .state-nav select {
