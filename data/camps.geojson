@@ -7658,7 +7658,7 @@
       "properties": {
         "name": "Bashore Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Pennsylvania Dutch Council",
         "address": "160 Moonshine Rd, Jonestown, PA 17038",
         "city": "Jonestown",
         "state": "PA",
@@ -7679,7 +7679,7 @@
       "properties": {
         "name": "Camp Acahela",
         "type": "council_camp",
-        "council": null,
+        "council": "Northeastern Pennsylvania Council",
         "address": "359 Acahela Rd, Blakeslee, PA 18610",
         "city": "Blakeslee",
         "state": "PA",
@@ -7700,7 +7700,7 @@
       "properties": {
         "name": "Camp Conestoga",
         "type": "council_camp",
-        "council": null,
+        "council": "Pennsylvania Dutch Council",
         "address": "639 Buck Run Rd, Somerset, PA 15501",
         "city": "Somerset",
         "state": "PA",
@@ -7721,7 +7721,7 @@
       "properties": {
         "name": "Camp Karoondinha",
         "type": "council_camp",
-        "council": null,
+        "council": "Susquehanna Council",
         "address": "225 Thomas Dam Rd, Millmont, PA 17845",
         "city": "Millmont",
         "state": "PA",
@@ -7742,7 +7742,7 @@
       "properties": {
         "name": "Camp Lavigne",
         "type": "council_camp",
-        "council": null,
+        "council": "French Creek Council",
         "address": "35 Camp Lavigne Rd, Benton, PA 17814",
         "city": "Benton",
         "state": "PA",
@@ -7763,7 +7763,7 @@
       "properties": {
         "name": "Camp Minsi",
         "type": "council_camp",
-        "council": null,
+        "council": "Minsi Trails Council",
         "address": "106 Camp Minsi Rd, Pocono Summit, PA 18346",
         "city": "Pocono Summit",
         "state": "PA",
@@ -7784,7 +7784,7 @@
       "properties": {
         "name": "Camp Mountain Run",
         "type": "council_camp",
-        "council": null,
+        "council": "New Birth of Freedom Council",
         "address": "4980 Mountain Run Rd, Penfield, PA 15849",
         "city": "DuBois",
         "state": "PA",
@@ -7805,7 +7805,7 @@
       "properties": {
         "name": "Camp Olmsted",
         "type": "council_camp",
-        "council": null,
+        "council": "Northeastern Pennsylvania Council",
         "address": "3123 Roper Hollow Rd, Russell, PA 16345",
         "city": "Warren",
         "state": "PA",
@@ -7826,7 +7826,7 @@
       "properties": {
         "name": "Camp Tuckahoe",
         "type": "council_camp",
-        "council": null,
+        "council": "Bucks County Council",
         "address": "400 Tuckahoe Rd, Dillsburg, PA 17019",
         "city": "Dillsburg",
         "state": "PA",
@@ -7847,7 +7847,7 @@
       "properties": {
         "name": "Camp Ware (John H. Ware III)",
         "type": "council_camp",
-        "council": null,
+        "council": "Chester County Council",
         "address": "239 Jubilee Rd, Peach Bottom, PA 17563",
         "city": "Peach Bottom",
         "state": "PA",
@@ -7868,7 +7868,7 @@
       "properties": {
         "name": "Custaloga Town Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "French Creek Council",
         "address": "7 Boy Scout Ln, Carlton, PA 16311",
         "city": "Carlton",
         "state": "PA",
@@ -7889,7 +7889,7 @@
       "properties": {
         "name": "Goose Pond Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Hawk Mountain Council",
         "address": "1047 Goose Pond Rd, Lake Ariel, PA 18436",
         "city": "Hawley",
         "state": "PA",
@@ -7910,7 +7910,7 @@
       "properties": {
         "name": "Hawk Mountain Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Hawk Mountain Council",
         "address": "402 Blue Mountain Rd, Schuylkill Haven, PA 17972",
         "city": "Hawk Mountain",
         "state": "PA",
@@ -7931,7 +7931,7 @@
       "properties": {
         "name": "Heritage Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Bucktail Council",
         "address": "300 Heritage Rd, Farmington, PA 15437",
         "city": "Farmington",
         "state": "PA",
@@ -7952,7 +7952,7 @@
       "properties": {
         "name": "Hidden Valley Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Westmoreland-Fayette Council",
         "address": "268 Hidden Valley Rd, Loysville, PA 17047",
         "city": "Loysville",
         "state": "PA",
@@ -7973,7 +7973,7 @@
       "properties": {
         "name": "J. Edward Mack Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Chester County Council",
         "address": "2 Scout Ln, Newmanstown, PA 17073",
         "city": "Newmanstown",
         "state": "PA",
@@ -7994,7 +7994,7 @@
       "properties": {
         "name": "Musser Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Pennsylvania Dutch Council",
         "address": "5505 Upper Ridge Rd, Pennsburg, PA 18073",
         "city": "Perkasie",
         "state": "PA",
@@ -8015,7 +8015,7 @@
       "properties": {
         "name": "Ockanickon Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Bucks County Council",
         "address": "5787 State Park Rd, Pipersville, PA 18947",
         "city": "Pipersville",
         "state": "PA",
@@ -8036,7 +8036,7 @@
       "properties": {
         "name": "Resica Falls Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Minsi Trails Council",
         "address": "1200 Resica Falls Rd, East Stroudsburg, PA 18302",
         "city": "East Stroudsburg",
         "state": "PA",
@@ -8057,7 +8057,7 @@
       "properties": {
         "name": "Seven Mountains Scout Camp",
         "type": "council_camp",
-        "council": null,
+        "council": "Juniata Valley Council",
         "address": "227 Sand Mountain Rd, Spring Mills, PA 16875",
         "city": "Mifflinburg",
         "state": "PA",
@@ -8078,7 +8078,7 @@
       "properties": {
         "name": "Aubrey Watzek Lodge",
         "type": "council_camp",
-        "council": null,
+        "council": "Cascade Pacific Council",
         "address": "14000 Hwy 35, Parkdale, OR 97041",
         "city": "Portland",
         "state": "OR",
@@ -8099,7 +8099,7 @@
       "properties": {
         "name": "Butte Creek Scout Ranch",
         "type": "council_camp",
-        "council": null,
+        "council": "Cascade Pacific Council",
         "address": "13462 S Butte Creek Rd, Scotts Mills, OR 97375",
         "city": "Scotts Mills",
         "state": "OR",
@@ -8120,7 +8120,7 @@
       "properties": {
         "name": "Camp Baker",
         "type": "council_camp",
-        "council": null,
+        "council": "Cascade Pacific Council",
         "address": "5262 Boy Scout Rd, Florence, OR 97439",
         "city": "Florence",
         "state": "OR",
@@ -8141,7 +8141,7 @@
       "properties": {
         "name": "Camp Baldwin",
         "type": "council_camp",
-        "council": null,
+        "council": "Cascade Pacific Council",
         "address": "76201 Dufur Valley Rd, Dufur, OR 97021",
         "city": "Dufur",
         "state": "OR",
@@ -8162,7 +8162,7 @@
       "properties": {
         "name": "Camp Clark",
         "type": "council_camp",
-        "council": null,
+        "council": "Cascade Pacific Council",
         "address": "17500 Cape Lookout Rd, Cloverdale, OR 97112",
         "city": "Cloverdale",
         "state": "OR",
@@ -8183,7 +8183,7 @@
       "properties": {
         "name": "Camp Cooper",
         "type": "council_camp",
-        "council": null,
+        "council": "Oregon Trail Council",
         "address": "6000 SW Bald Mountain Rd, Willamina, OR 97396",
         "city": "Willamina",
         "state": "OR",
@@ -8204,7 +8204,7 @@
       "properties": {
         "name": "Camp Ireland",
         "type": "council_camp",
-        "council": null,
+        "council": "Crater Lake Council",
         "address": "31557 NW Camp Ireland Rd, Hillsboro, OR 97124",
         "city": "Hillsboro",
         "state": "OR",
@@ -8225,7 +8225,7 @@
       "properties": {
         "name": "Camp Makualla",
         "type": "council_camp",
-        "council": null,
+        "council": "Blue Mountain Council",
         "address": "FR 60, Crescent, OR 97733",
         "city": "Crescent Lake",
         "state": "OR",
@@ -8246,7 +8246,7 @@
       "properties": {
         "name": "Camp McLoughlin",
         "type": "council_camp",
-        "council": null,
+        "council": "Crater Lake Council",
         "address": "OR-140, Klamath Falls, OR 97601",
         "city": "Klamath Falls",
         "state": "OR",
@@ -8267,7 +8267,7 @@
       "properties": {
         "name": "Camp Melakwa",
         "type": "council_camp",
-        "council": null,
+        "council": "Cascade Pacific Council",
         "address": "2649 Scott Creek Rd, Blue River, OR 97413",
         "city": "McKenzie Bridge",
         "state": "OR",
@@ -8288,7 +8288,7 @@
       "properties": {
         "name": "Camp Royce-Finel",
         "type": "council_camp",
-        "council": null,
+        "council": "Oregon Trail Council",
         "address": "Cullaby Lake Ln, Warrenton, OR 97146",
         "city": "Warrenton",
         "state": "OR",
@@ -8309,7 +8309,7 @@
       "properties": {
         "name": "Camp George Thomas",
         "type": "council_camp",
-        "council": null,
+        "council": "Cimarron Council",
         "address": "45456 County Street 2520, Apache, OK 73006",
         "city": "Apache",
         "state": "OK",
@@ -8330,7 +8330,7 @@
       "properties": {
         "name": "Camp McClintock",
         "type": "council_camp",
-        "council": null,
+        "council": "Indian Nations Council",
         "address": "216 County Rd 2427, Bartlesville, OK 74003",
         "city": "Bartlesville",
         "state": "OK",
@@ -8351,7 +8351,7 @@
       "properties": {
         "name": "Camp Sasakwa",
         "type": "council_camp",
-        "council": null,
+        "council": "Indian Nations Council",
         "address": "D1445 Rd, Allen, OK 74825",
         "city": "Holdenville",
         "state": "OK",
@@ -8372,7 +8372,7 @@
       "properties": {
         "name": "Camp Simpson",
         "type": "council_camp",
-        "council": null,
+        "council": "Last Frontier Council",
         "address": "6535 East Coatsworth Road, Bromide, OK 74530",
         "city": "Milburn",
         "state": "OK",
@@ -8393,7 +8393,7 @@
       "properties": {
         "name": "Hale Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Will Rogers Council",
         "address": "1 Camp Tom Hale Road, Talihina, OK 74571",
         "city": "Talihina",
         "state": "OK",
@@ -8414,7 +8414,7 @@
       "properties": {
         "name": "Kerr Scout Ranch at Slippery Falls",
         "type": "council_camp",
-        "council": null,
+        "council": "Last Frontier Council",
         "address": "4500 S Bullet Prairie Rd, Tishomingo, OK 73460",
         "city": "Tishomingo",
         "state": "OK",
@@ -8435,7 +8435,7 @@
       "properties": {
         "name": "Mabee Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Indian Nations Council",
         "address": "6500 E 590, Locust Grove, OK 74352",
         "city": "Locust Grove",
         "state": "OK",
@@ -8456,7 +8456,7 @@
       "properties": {
         "name": "Tom Hale Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Will Rogers Council",
         "address": "1 Camp Tom Hale Road, Talihina, OK 74571",
         "city": "Skiatook",
         "state": "OK",
@@ -8477,7 +8477,7 @@
       "properties": {
         "name": "Will Rogers Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Cherokee Area Council",
         "address": "362369 E Highway 64, Cleveland, OK 74020",
         "city": "Cleveland",
         "state": "OK",
@@ -8498,7 +8498,7 @@
       "properties": {
         "name": "Zink Scout Ranch",
         "type": "council_camp",
-        "council": null,
+        "council": "Indian Nations Council",
         "address": "11301 Zink Ranch Rd, Skiatook, OK 74070",
         "city": "Skiatook",
         "state": "OK",
@@ -8519,7 +8519,7 @@
       "properties": {
         "name": "Beaumont Scout Reservation (Lake Erie Council)",
         "type": "council_camp",
-        "council": null,
+        "council": "Lake Erie Council",
         "address": "2429 SR 45 N, Rock Creek, OH 44084",
         "city": "Rock Creek",
         "state": "OH",
@@ -8540,7 +8540,7 @@
       "properties": {
         "name": "Camp Berry",
         "type": "council_camp",
-        "council": null,
+        "council": "Erie Shores Council",
         "address": "11716 CR 40, Findlay, OH 45840",
         "city": "Findlay",
         "state": "OH",
@@ -8561,7 +8561,7 @@
       "properties": {
         "name": "Camp Craig",
         "type": "council_camp",
-        "council": null,
+        "council": "Muskingum Valley Council",
         "address": "6113 Price Rd, Loveland, OH 45140",
         "city": "Loveland",
         "state": "OH",
@@ -8582,7 +8582,7 @@
       "properties": {
         "name": "Camp Falling Rock",
         "type": "council_camp",
-        "council": null,
+        "council": "Buckeye Council",
         "address": "12637 Houdeshell Rd, Newark, OH 43055",
         "city": "Newark",
         "state": "OH",
@@ -8603,7 +8603,7 @@
       "properties": {
         "name": "Camp Friedlander",
         "type": "council_camp",
-        "council": null,
+        "council": "Dan Beard Council",
         "address": "581 Ibold Rd, Loveland, OH 45140",
         "city": "Loveland",
         "state": "OH",
@@ -8624,7 +8624,7 @@
       "properties": {
         "name": "Camp Hugh Taylor Birch",
         "type": "council_camp",
-        "council": null,
+        "council": "Miami Valley Council",
         "address": "4057 Swimming Pool Rd, Yellow Springs, OH 45387",
         "city": "Yellow Springs",
         "state": "OH",
@@ -8645,7 +8645,7 @@
       "properties": {
         "name": "Camp Lakota",
         "type": "council_camp",
-        "council": null,
+        "council": "Miami Valley Council",
         "address": "2180 Ginter Rd, Defiance, OH 43512",
         "city": "Defiance",
         "state": "OH",
@@ -8666,7 +8666,7 @@
       "properties": {
         "name": "Camp Lazarus",
         "type": "council_camp",
-        "council": null,
+        "council": "Simon Kenton Council",
         "address": "4422 Columbus Pike, Delaware, OH 43015",
         "city": "Delaware",
         "state": "OH",
@@ -8687,7 +8687,7 @@
       "properties": {
         "name": "Camp McKinley",
         "type": "council_camp",
-        "council": null,
+        "council": "Buckeye Council",
         "address": "37748 Furnace Rd, Lisbon, OH 44432",
         "city": "Lisbon",
         "state": "OH",
@@ -8708,7 +8708,7 @@
       "properties": {
         "name": "Camp Miakonda",
         "type": "council_camp",
-        "council": null,
+        "council": "Erie Shores Council",
         "address": "5600 W Sylvania Ave, Toledo, OH 43623",
         "city": "Sylvania",
         "state": "OH",
@@ -8729,7 +8729,7 @@
       "properties": {
         "name": "Camp Otter Run",
         "type": "council_camp",
-        "council": null,
+        "council": "Muskingum Valley Council",
         "address": "7647 Co Rd 144, East Liberty, OH 43319",
         "city": "East Liberty",
         "state": "OH",
@@ -8750,7 +8750,7 @@
       "properties": {
         "name": "Camp Oyo",
         "type": "council_camp",
-        "council": null,
+        "council": "Simon Kenton Council",
         "address": "168 Shawnee Rd, West Portsmouth, OH 45663",
         "city": "West Portsmouth",
         "state": "OH",
@@ -8771,7 +8771,7 @@
       "properties": {
         "name": "Camp Rodman",
         "type": "council_camp",
-        "council": null,
+        "council": "Great Trail Council",
         "address": "11400 State Street NE, Alliance, OH 44601",
         "city": "Barberton",
         "state": "OH",
@@ -8792,7 +8792,7 @@
       "properties": {
         "name": "Camp Stambaugh",
         "type": "council_camp",
-        "council": null,
+        "council": "Buckeye Council",
         "address": "3712 Leffingwell Rd, Canfield, OH 44406",
         "city": "Canfield",
         "state": "OH",
@@ -8813,7 +8813,7 @@
       "properties": {
         "name": "Cricket Holler Scout Camp",
         "type": "council_camp",
-        "council": null,
+        "council": "Tecumseh Council",
         "address": "6675 Brantford Rd, Dayton, OH 45414",
         "city": "Camden",
         "state": "OH",
@@ -8834,7 +8834,7 @@
       "properties": {
         "name": "Cub World Adventure Camp",
         "type": "council_camp",
-        "council": null,
+        "council": "Great Trail Council",
         "address": "6035 Price Rd, Loveland, OH 45140",
         "city": "Loveland",
         "state": "OH",
@@ -8855,7 +8855,7 @@
       "properties": {
         "name": "Firelands Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Erie Shores Council",
         "address": "13782 Gore Orphanage Rd, Wakeman, OH 44889",
         "city": "Wakeman",
         "state": "OH",
@@ -8876,7 +8876,7 @@
       "properties": {
         "name": "Fort Steuben Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Buckeye Council",
         "address": "79601 Simpson Rd, Tippecanoe, OH 44699",
         "city": "Tippecanoe",
         "state": "OH",
@@ -8897,7 +8897,7 @@
       "properties": {
         "name": "Manatoc Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Great Trail Council",
         "address": "1075 Truxell Rd, Peninsula, OH 44264",
         "city": "Peninsula",
         "state": "OH",
@@ -8918,7 +8918,7 @@
       "properties": {
         "name": "Pioneer Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Simon Kenton Council",
         "address": "7371 County Road S, Pioneer, OH 43554",
         "city": "Pioneer",
         "state": "OH",
@@ -8939,7 +8939,7 @@
       "properties": {
         "name": "Seven Ranges Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Buckeye Council",
         "address": "7070 Meter Rd NE, Kensington, OH 44427",
         "city": "Kensington",
         "state": "OH",
@@ -8960,7 +8960,7 @@
       "properties": {
         "name": "Woodland Trails Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Tecumseh Council",
         "address": "265 Gasper-Somers Rd, Camden, OH 45311",
         "city": "Camden",
         "state": "OH",
@@ -8981,7 +8981,7 @@
       "properties": {
         "name": "Camp Boddie (East Carolina Scout Reservation)",
         "type": "council_camp",
-        "council": null,
+        "council": "East Carolina Council",
         "address": "419 Camp Bonner Boy Scout Rd, Blounts Creek, NC 27814",
         "city": "Blounts Creek",
         "state": "NC",
@@ -9002,7 +9002,7 @@
       "properties": {
         "name": "Camp Bowers",
         "type": "council_camp",
-        "council": null,
+        "council": "Cape Fear Council",
         "address": "13165 NC Hwy 53 W, White Oak, NC 28399",
         "city": "White Oak",
         "state": "NC",
@@ -9023,7 +9023,7 @@
       "properties": {
         "name": "Camp Bud Schiele",
         "type": "council_camp",
-        "council": null,
+        "council": "Piedmont Council",
         "address": "668 Boy Scout Rd, Rutherfordton, NC 28139",
         "city": "Rutherfordton",
         "state": "NC",
@@ -9044,7 +9044,7 @@
       "properties": {
         "name": "Camp Daniel Boone",
         "type": "council_camp",
-        "council": null,
+        "council": "Daniel Boone Council",
         "address": "3647 Little East Fork Rd, Canton, NC 28716",
         "city": "Canton",
         "state": "NC",
@@ -9065,7 +9065,7 @@
       "properties": {
         "name": "Camp Durant",
         "type": "council_camp",
-        "council": null,
+        "council": "Occoneechee Council",
         "address": "4637 Old Carthage Rd, Carthage, NC 28327",
         "city": "Rougemont",
         "state": "NC",
@@ -9086,7 +9086,7 @@
       "properties": {
         "name": "Camp Grimes",
         "type": "council_camp",
-        "council": null,
+        "council": "Mecklenburg County Council",
         "address": "383 Vein Mountain Rd, Nebo, NC 28761",
         "city": "Pinnacle",
         "state": "NC",
@@ -9107,7 +9107,7 @@
       "properties": {
         "name": "Camp John J. Barnhardt",
         "type": "council_camp",
-        "council": null,
+        "council": "Central North Carolina Council",
         "address": "44184 Cannon Rd, New London, NC 28127",
         "city": "New London",
         "state": "NC",
@@ -9128,7 +9128,7 @@
       "properties": {
         "name": "Camp McNeil (Cub Scout World)",
         "type": "council_camp",
-        "council": null,
+        "council": "Cape Fear Council",
         "address": "13165 NC Hwy 53 W, White Oak, NC 28399",
         "city": "White Oak",
         "state": "NC",
@@ -9149,7 +9149,7 @@
       "properties": {
         "name": "Camp Raven Knob",
         "type": "council_camp",
-        "council": null,
+        "council": "Old Hickory Council",
         "address": "266 Raven Knob Rd, Mount Airy, NC 27030",
         "city": "Mount Airy",
         "state": "NC",
@@ -9170,7 +9170,7 @@
       "properties": {
         "name": "Camp Reeves",
         "type": "council_camp",
-        "council": null,
+        "council": "Tuscarora Council",
         "address": "4637 Old Carthage Rd, Carthage, NC 28327",
         "city": "Cameron",
         "state": "NC",
@@ -9191,7 +9191,7 @@
       "properties": {
         "name": "Camp Sam Hatcher",
         "type": "council_camp",
-        "council": null,
+        "council": "Piedmont Council",
         "address": "Hatcher Rd, Newport, NC 28570",
         "city": "Newport",
         "state": "NC",
@@ -9212,7 +9212,7 @@
       "properties": {
         "name": "Camp Tuscarora",
         "type": "council_camp",
-        "council": null,
+        "council": "Tuscarora Council",
         "address": "965 Scout Rd, Four Oaks, NC 27524",
         "city": "Goldsboro",
         "state": "NC",
@@ -9233,7 +9233,7 @@
       "properties": {
         "name": "Cherokee Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Daniel Boone Council",
         "address": "3296 Boy Scout Camp Rd, Yanceyville, NC 27379",
         "city": "Yanceyville",
         "state": "NC",
@@ -9254,7 +9254,7 @@
       "properties": {
         "name": "Hemrick Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Blue Ridge Council",
         "address": "Boat Launch Rd, Clarksville, VA 23927",
         "city": "Rutherfordton",
         "state": "NC",
@@ -9275,7 +9275,7 @@
       "properties": {
         "name": "Occoneechee Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Occoneechee Council",
         "address": "4637 Old Carthage Rd, Carthage, NC 28327",
         "city": "Rougemont",
         "state": "NC",
@@ -9296,7 +9296,7 @@
       "properties": {
         "name": "Woodfield Scout Preservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Old North State Council",
         "address": "491 Woodfield Scout Trail, Asheboro, NC 27205",
         "city": "Yanceyville",
         "state": "NC",
@@ -9317,7 +9317,7 @@
       "properties": {
         "name": "Baiting Hollow Scout Camp",
         "type": "council_camp",
-        "council": null,
+        "council": "Theodore Roosevelt Council",
         "address": "1774 Sound Ave, Calverton, NY 11933",
         "city": "Wading River",
         "state": "NY",
@@ -9338,7 +9338,7 @@
       "properties": {
         "name": "Camp Aquehonga",
         "type": "council_camp",
-        "council": null,
+        "council": "Greater New York Councils",
         "address": "125 Aquehonga Rd, Narrowsburg, NY 12764",
         "city": "Narrowsburg",
         "state": "NY",
@@ -9359,7 +9359,7 @@
       "properties": {
         "name": "Camp Bullowa",
         "type": "council_camp",
-        "council": null,
+        "council": "Westchester-Putnam Council",
         "address": "15 Franck Rd, Stony Point, NY 10980",
         "city": "Stony Point",
         "state": "NY",
@@ -9380,7 +9380,7 @@
       "properties": {
         "name": "Camp Cutler",
         "type": "council_camp",
-        "council": null,
+        "council": "Seneca Waterways Council",
         "address": "7131 Gulick Rd, Naples, NY 14512",
         "city": "Naples",
         "state": "NY",
@@ -9401,7 +9401,7 @@
       "properties": {
         "name": "Camp Gorton",
         "type": "council_camp",
-        "council": null,
+        "council": "Seneca Waterways Council",
         "address": "4241 County Rt 25, Dundee, NY 14837",
         "city": "Tyrone",
         "state": "NY",
@@ -9422,7 +9422,7 @@
       "properties": {
         "name": "Camp Kingsley",
         "type": "council_camp",
-        "council": null,
+        "council": "Leatherstocking Council",
         "address": "5330 Tuffey Rd, Ava, NY 13303",
         "city": "Ava",
         "state": "NY",
@@ -9443,7 +9443,7 @@
       "properties": {
         "name": "Camp Merz",
         "type": "council_camp",
-        "council": null,
+        "council": "Niagara Frontier Council",
         "address": "5297 West Lake Rd, Mayville, NY 14757",
         "city": "Mayville",
         "state": "NY",
@@ -9464,7 +9464,7 @@
       "properties": {
         "name": "Camp Pouch",
         "type": "council_camp",
-        "council": null,
+        "council": "Greater New York Councils",
         "address": "1465 Manor Rd, Staten Island, NY 10314",
         "city": "Staten Island",
         "state": "NY",
@@ -9485,7 +9485,7 @@
       "properties": {
         "name": "Camp Sam Wood",
         "type": "council_camp",
-        "council": null,
+        "council": "Twin Rivers Council",
         "address": "7772 Camp Rd, Portageville, NY 14536",
         "city": "Pike",
         "state": "NY",
@@ -9506,7 +9506,7 @@
       "properties": {
         "name": "Camp Scouthaven",
         "type": "council_camp",
-        "council": null,
+        "council": "Niagara Frontier Council",
         "address": "10784 NY-98, Freedom, NY 14065",
         "city": "Freedom",
         "state": "NY",
@@ -9527,7 +9527,7 @@
       "properties": {
         "name": "Camp Tri-Mount Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Westchester-Putnam Council",
         "address": "261 Boy Scout Rd, East Jewett, NY 12424",
         "city": "East Jewett",
         "state": "NY",
@@ -9548,7 +9548,7 @@
       "properties": {
         "name": "Camp Wakpominee",
         "type": "council_camp",
-        "council": null,
+        "council": "Hiawatha Seaway Council",
         "address": "185 Sly Pond Rd, Fort Ann, NY 12827",
         "city": "Fort Ann",
         "state": "NY",
@@ -9569,7 +9569,7 @@
       "properties": {
         "name": "Camp Woodland",
         "type": "council_camp",
-        "council": null,
+        "council": "Leatherstocking Council",
         "address": "491 Kibbe Lake Rd, Constantia, NY 13044",
         "city": "Long Lake",
         "state": "NY",
@@ -9590,7 +9590,7 @@
       "properties": {
         "name": "Curtis S. Read Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Westchester-Putnam Council",
         "address": "1377 Palisades Rd, Brant Lake, NY 12815",
         "city": "Brant Lake",
         "state": "NY",
@@ -9611,7 +9611,7 @@
       "properties": {
         "name": "Durland Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Orange County Council",
         "address": "1 Clear Lake Rd, Putnam Valley, NY 10512",
         "city": "Putnam Valley",
         "state": "NY",
@@ -9632,7 +9632,7 @@
       "properties": {
         "name": "Elk Lick Scout Reserve",
         "type": "council_camp",
-        "council": null,
+        "council": "Bucktail Council",
         "address": "2420 Bordell Rd, Smethport, PA 16749",
         "city": "Smethport",
         "state": "PA",
@@ -9653,7 +9653,7 @@
       "properties": {
         "name": "Forestburg Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Sullivan County Council",
         "address": "1945 State Route 42, Forestburgh, NY 12777",
         "city": "Forestburgh",
         "state": "NY",
@@ -9674,7 +9674,7 @@
       "properties": {
         "name": "Massawepie Scout Camps",
         "type": "council_camp",
-        "council": null,
+        "council": "Longhouse Council",
         "address": "65 Massawepie Rd, Piercefield, NY 12776",
         "city": "Piercefield",
         "state": "NY",
@@ -9695,7 +9695,7 @@
       "properties": {
         "name": "Onteora Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Rip Van Winkle Council",
         "address": "3 Old Hunter Rd, Livingston Manor, NY 12758",
         "city": "Livingston Manor",
         "state": "NY",
@@ -9716,7 +9716,7 @@
       "properties": {
         "name": "Rotary Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Twin Rivers Council",
         "address": "279 Davitt Lake Rd, Averill Park, NY 12018",
         "city": "Poestenkill",
         "state": "NY",
@@ -9737,7 +9737,7 @@
       "properties": {
         "name": "Sabattis Adventure Camp",
         "type": "council_camp",
-        "council": null,
+        "council": "Longhouse Council",
         "address": "1745 Sabattis Rd, Long Lake, NY 12847",
         "city": "Long Lake",
         "state": "NY",
@@ -9758,7 +9758,7 @@
       "properties": {
         "name": "Sabattis Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Longhouse Council",
         "address": "1745 Sabattis Rd, Long Lake, NY 12847",
         "city": "Long Lake",
         "state": "NY",
@@ -9779,7 +9779,7 @@
       "properties": {
         "name": "Ten Mile River Scout Camps",
         "type": "council_camp",
-        "council": null,
+        "council": "Greater New York Councils",
         "address": "1481 Crystal Lake Rd, Narrowsburg, NY 12764",
         "city": "Narrowsburg",
         "state": "NY",
@@ -9800,7 +9800,7 @@
       "properties": {
         "name": "Tuscarora Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Steuben Area Council",
         "address": "205 Summit Rd, Windsor, NY 13865",
         "city": "Windsor",
         "state": "NY",
@@ -9821,7 +9821,7 @@
       "properties": {
         "name": "Camp Pioneer (Cascade Pacific Council)",
         "type": "council_camp",
-        "council": null,
+        "council": "Cascade Pacific Council",
         "address": "62681 Twin Meadows Rd, Idanha, OR 97350",
         "city": "Detroit",
         "state": "OR",
@@ -9842,7 +9842,7 @@
       "properties": {
         "name": "Camp Cherokee (Old Hickory Council)",
         "type": "council_camp",
-        "council": null,
+        "council": "Old Hickory Council",
         "address": "3296 Boy Scout Camp Rd, Yanceyville, NC 27379",
         "city": "Yanceyville",
         "state": "NC",
@@ -9863,7 +9863,7 @@
       "properties": {
         "name": "Alpine Scout Camp",
         "type": "council_camp",
-        "council": null,
+        "council": "Northern New Jersey Council",
         "address": "441 Route 9W, Alpine, NJ 07620",
         "city": "Alpine",
         "state": "NJ",
@@ -9884,7 +9884,7 @@
       "properties": {
         "name": "Camp Grice",
         "type": "council_camp",
-        "council": null,
+        "council": "Southern New Jersey Council",
         "address": "384 Watsons Mill Road, Elmer, NJ 08318",
         "city": "Pine Hill",
         "state": "NJ",
@@ -9905,7 +9905,7 @@
       "properties": {
         "name": "Camp Lewis",
         "type": "council_camp",
-        "council": null,
+        "council": "Southern New Jersey Council",
         "address": "39 Upper Hibernia Road, Rockaway, NJ 07866",
         "city": "Rockaway",
         "state": "NJ",
@@ -9926,7 +9926,7 @@
       "properties": {
         "name": "Camp NoBeBoSco",
         "type": "council_camp",
-        "council": null,
+        "council": "Northern New Jersey Council",
         "address": "11 Sand Pond Road, Hardwick, NJ 07825",
         "city": "Blairstown",
         "state": "NJ",
@@ -9947,7 +9947,7 @@
       "properties": {
         "name": "Camp Somers (Mt. Allamuchy SR)",
         "type": "council_camp",
-        "council": null,
+        "council": "Patriots' Path Council",
         "address": "750 Waterloo Road, Stanhope, NJ 07874",
         "city": "Byram Township",
         "state": "NJ",
@@ -9968,7 +9968,7 @@
       "properties": {
         "name": "Camp Watchung",
         "type": "council_camp",
-        "council": null,
+        "council": "Patriots' Path Council",
         "address": "452 New Providence Road, Mountainside, NJ 07092",
         "city": "Watchung",
         "state": "NJ",
@@ -9989,7 +9989,7 @@
       "properties": {
         "name": "Camp Wheeler (Mt. Allamuchy SR)",
         "type": "council_camp",
-        "council": null,
+        "council": "Patriots' Path Council",
         "address": "750 Waterloo Road, Stanhope, NJ 07874",
         "city": "Byram Township",
         "state": "NJ",
@@ -10010,7 +10010,7 @@
       "properties": {
         "name": "Camp Winnebago",
         "type": "council_camp",
-        "council": null,
+        "council": "Jersey Shore Council",
         "address": "102 Timberbrook Road, Rockaway, NJ 07866",
         "city": "Rockaway",
         "state": "NJ",
@@ -10031,7 +10031,7 @@
       "properties": {
         "name": "Camp Yaw Paw",
         "type": "council_camp",
-        "council": null,
+        "council": "Northern New Jersey Council",
         "address": "100 Bear Swamp Road, Mahwah, NJ 07430",
         "city": "Mahwah",
         "state": "NJ",
@@ -10052,7 +10052,7 @@
       "properties": {
         "name": "Floodwood Mountain Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Northern New Jersey Council",
         "address": "Floodwood Rd, Tupper Lake, NY 12986",
         "city": "Tupper Lake",
         "state": "NY",
@@ -10073,7 +10073,7 @@
       "properties": {
         "name": "Joseph A. Citta Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Jersey Shore Council",
         "address": "229 Brookville Road, Barnegat, NJ 08005",
         "city": "Barnegat",
         "state": "NJ",
@@ -10094,7 +10094,7 @@
       "properties": {
         "name": "Mt. Allamuchy Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Patriots' Path Council",
         "address": "750 Waterloo Road, Stanhope, NJ 07874",
         "city": "Byram Township",
         "state": "NJ",
@@ -10115,7 +10115,7 @@
       "properties": {
         "name": "Pine Hill Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Garden State Council",
         "address": "120 Watsontown-New Freedom Road, Pine Hill, NJ 08021",
         "city": "Pine Hill",
         "state": "NJ",
@@ -10136,7 +10136,7 @@
       "properties": {
         "name": "Quail Hill Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Garden State Council",
         "address": "56 LaValley Drive, Manalapan, NJ 07726",
         "city": "Manalapan",
         "state": "NJ",
@@ -10157,7 +10157,7 @@
       "properties": {
         "name": "Roosevelt Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Garden State Council",
         "address": "384 Watsons Mill Road, Elmer, NJ 08318",
         "city": "Tabernacle",
         "state": "NJ",
@@ -10178,7 +10178,7 @@
       "properties": {
         "name": "Winnebago Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Jersey Shore Council",
         "address": "102 Timberbrook Road, Rockaway, NJ 07866",
         "city": "Rockaway",
         "state": "NJ",
@@ -10199,7 +10199,7 @@
       "properties": {
         "name": "Camp Bell",
         "type": "council_camp",
-        "council": null,
+        "council": "Daniel Webster Council",
         "address": "254 Griswold Lane, Gilmanton Iron Works, NH 03837",
         "city": "Gilmanton Iron Works",
         "state": "NH",
@@ -10220,7 +10220,7 @@
       "properties": {
         "name": "Camp Carpenter",
         "type": "council_camp",
-        "council": null,
+        "council": "Daniel Webster Council",
         "address": "300 Blondin Road, Manchester, NH 03109",
         "city": "Manchester",
         "state": "NH",
@@ -10241,7 +10241,7 @@
       "properties": {
         "name": "Camp Wanocksett",
         "type": "council_camp",
-        "council": null,
+        "council": "Nashua Valley Council",
         "address": "642 Upper Jaffrey Road, Dublin, NH 03444",
         "city": "Dublin",
         "state": "NH",
@@ -10262,7 +10262,7 @@
       "properties": {
         "name": "Hidden Valley Scout Camp",
         "type": "council_camp",
-        "council": null,
+        "council": "Daniel Webster Council",
         "address": "2 Eileen Shore Road, Gilmanton Iron Works, NH 03837",
         "city": "Gilmanton Iron Works",
         "state": "NH",
@@ -10283,7 +10283,7 @@
       "properties": {
         "name": "Parker Mountain Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Daniel Webster Council",
         "address": "55 Boy Scout Road, Strafford, NH 03884",
         "city": "Strafford",
         "state": "NH",
@@ -10304,7 +10304,7 @@
       "properties": {
         "name": "Pierre Hoge Scout Camp",
         "type": "council_camp",
-        "council": null,
+        "council": "Daniel Webster Council",
         "address": "Eaton Road, Walpole, NH 03608",
         "city": "Walpole",
         "state": "NH",
@@ -10325,7 +10325,7 @@
       "properties": {
         "name": "Beaumont Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Greater St. Louis Area Council",
         "address": "6480 Beaumont Reservation Dr, High Ridge, MO 63049",
         "city": "High Ridge",
         "state": "MO",
@@ -10346,7 +10346,7 @@
       "properties": {
         "name": "Camp Famous Eagle",
         "type": "council_camp",
-        "council": null,
+        "council": "Great Rivers Council",
         "address": "120 US Hwy 67, Knob Lick, MO 63651",
         "city": "Knob Lick",
         "state": "MO",
@@ -10367,7 +10367,7 @@
       "properties": {
         "name": "Camp Gamble",
         "type": "council_camp",
-        "council": null,
+        "council": "Great Rivers Council",
         "address": "120 US Hwy 67, Knob Lick, MO 63651",
         "city": "Knob Lick",
         "state": "MO",
@@ -10388,7 +10388,7 @@
       "properties": {
         "name": "Camp Geiger Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Ozark Trails Council",
         "address": "9525 County Rd 388, St. Joseph, MO 64505",
         "city": "Saint Joseph",
         "state": "MO",
@@ -10409,7 +10409,7 @@
       "properties": {
         "name": "Camp Lewallen",
         "type": "council_camp",
-        "council": null,
+        "council": "Ozark Trails Council",
         "address": "1588 Wayne Route K, Silva, MO 63964",
         "city": "Silva",
         "state": "MO",
@@ -10430,7 +10430,7 @@
       "properties": {
         "name": "Camp Sakima",
         "type": "council_camp",
-        "council": null,
+        "council": "Pony Express Council",
         "address": "120 US Hwy 67, Knob Lick, MO 63651",
         "city": "Knob Lick",
         "state": "MO",
@@ -10451,7 +10451,7 @@
       "properties": {
         "name": "Cow Creek Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Pony Express Council",
         "address": "2658 Cow Creek Rd, Blue Eye, MO 65611",
         "city": "Blue Eye",
         "state": "MO",
@@ -10472,7 +10472,7 @@
       "properties": {
         "name": "H. Roe Bartle Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Heart of America Council",
         "address": "5525 NE Scout Camp Rd, Osceola, MO 64776",
         "city": "Osceola",
         "state": "MO",
@@ -10493,7 +10493,7 @@
       "properties": {
         "name": "Lake of the Ozarks Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Great Rivers Council",
         "address": "525 Camp Hohn Dr, Gravois Mills, MO 65037",
         "city": "Gravois Mills",
         "state": "MO",
@@ -10514,7 +10514,7 @@
       "properties": {
         "name": "S-F Scout Ranch",
         "type": "council_camp",
-        "council": null,
+        "council": "Greater St. Louis Area Council",
         "address": "120 US Hwy 67, Knob Lick, MO 63651",
         "city": "Knob Lick",
         "state": "MO",
@@ -10535,7 +10535,7 @@
       "properties": {
         "name": "Swift High Adventure Base",
         "type": "council_camp",
-        "council": null,
+        "council": "Heart of America Council",
         "address": "120 US Hwy 67, Knob Lick, MO 63651",
         "city": "Knob Lick",
         "state": "MO",
@@ -10556,7 +10556,7 @@
       "properties": {
         "name": "Bay Springs Scout Base",
         "type": "council_camp",
-        "council": null,
+        "council": "Andrew Jackson Council",
         "address": "Bay Springs Lake, Dennis, MS 38838",
         "city": "Booneville",
         "state": "MS",
@@ -10577,7 +10577,7 @@
       "properties": {
         "name": "Camp Binachi",
         "type": "council_camp",
-        "council": null,
+        "council": "Andrew Jackson Council",
         "address": "4434 Camp Binachi Rd, Meridian, MS 39301",
         "city": "Meridian",
         "state": "MS",
@@ -10598,7 +10598,7 @@
       "properties": {
         "name": "Camp Currier",
         "type": "council_camp",
-        "council": null,
+        "council": "Pine Burr Area Council",
         "address": "9700 Highway 304, Hernando, MS 38632",
         "city": "Eudora",
         "state": "MS",
@@ -10619,7 +10619,7 @@
       "properties": {
         "name": "Camp Seminole",
         "type": "council_camp",
-        "council": null,
+        "council": "Pushmataha Area Council",
         "address": "2244 Sun Creek Rd, Starkville, MS 39759",
         "city": "Starkville",
         "state": "MS",
@@ -10640,7 +10640,7 @@
       "properties": {
         "name": "Camp Tiak",
         "type": "council_camp",
-        "council": null,
+        "council": "Pine Burr Area Council",
         "address": "64 Camp Tiak Rd, Wiggins, MS 39577",
         "city": "Wiggins",
         "state": "MS",
@@ -10661,7 +10661,7 @@
       "properties": {
         "name": "Camp Toby Tubby",
         "type": "council_camp",
-        "council": null,
+        "council": "Yocona Area Council",
         "address": "589 Co Rd 100, Oxford, MS 38655",
         "city": "Oxford",
         "state": "MS",
@@ -10682,7 +10682,7 @@
       "properties": {
         "name": "Camp Yocona",
         "type": "council_camp",
-        "council": null,
+        "council": "Yocona Area Council",
         "address": "878 Boy Scout Rd, Randolph, MS 38864",
         "city": "Pontotoc",
         "state": "MS",
@@ -10703,7 +10703,7 @@
       "properties": {
         "name": "Hood Scout Reservation (Warren Hood SR)",
         "type": "council_camp",
-        "council": null,
+        "council": "Andrew Jackson Council",
         "address": "8065 Old Port Gibson Rd, Hazlehurst, MS 39083",
         "city": "Hazlehurst",
         "state": "MS",
@@ -10724,7 +10724,7 @@
       "properties": {
         "name": "Salmen Scout Reservation (Camp V-Bar)",
         "type": "council_camp",
-        "council": null,
+        "council": "Southeast Louisiana Council",
         "address": "27585 V-Bar Rd, Perkinston, MS 39573",
         "city": "Kiln",
         "state": "MS",
@@ -10745,7 +10745,7 @@
       "properties": {
         "name": "Camp Arrowhead (Ozark Trails Council)",
         "type": "council_camp",
-        "council": null,
+        "council": "Ozark Trails Council",
         "address": "4202 State Hwy DD, Marshfield, MO 65706",
         "city": "Marshfield",
         "state": "MO",
@@ -10766,7 +10766,7 @@
       "properties": {
         "name": "Base Camp (Northern Star Council)",
         "type": "council_camp",
-        "council": null,
+        "council": "Northern Star Council",
         "address": "6202 Bloomington Rd, Fort Snelling, MN 55111",
         "city": "Saint Paul",
         "state": "MN",
@@ -10787,7 +10787,7 @@
       "properties": {
         "name": "Camp Wilderness (Northern Lights Council)",
         "type": "council_camp",
-        "council": null,
+        "council": "Northern Lights Council",
         "address": "29984 Journey Trail, Park Rapids, MN 56470",
         "city": "Park Rapids",
         "state": "MN",
@@ -10808,7 +10808,7 @@
       "properties": {
         "name": "Cedar Point Scout Camp",
         "type": "council_camp",
-        "council": null,
+        "council": "Voyageurs Area Council",
         "address": "125 200th Ave, Fairmont, MN 56031",
         "city": "Lake Crystal",
         "state": "MN",
@@ -10829,7 +10829,7 @@
       "properties": {
         "name": "Cuyuna Scout Camp",
         "type": "council_camp",
-        "council": null,
+        "council": "Central Minnesota Council",
         "address": "38594 County Road 3, Crosslake, MN 56442",
         "city": "Crosby",
         "state": "MN",
@@ -10850,7 +10850,7 @@
       "properties": {
         "name": "Fred C. Anderson Scout Camp",
         "type": "council_camp",
-        "council": null,
+        "council": "Northern Star Council",
         "address": "186 Andersen Scout Camp Trail, Houlton, WI 54082",
         "city": "Camp Ripley",
         "state": "MN",
@@ -10871,7 +10871,7 @@
       "properties": {
         "name": "Gamehaven Scout Camp",
         "type": "council_camp",
-        "council": null,
+        "council": "Gamehaven Council",
         "address": "5015 Simpson Rd SE, Rochester, MN 55904",
         "city": "Rochester",
         "state": "MN",
@@ -10892,7 +10892,7 @@
       "properties": {
         "name": "Kiwanis Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Voyageurs Area Council",
         "address": "15987 St. Croix Trail N, Marine on St. Croix, MN 55047",
         "city": "Marine on Saint Croix",
         "state": "MN",
@@ -10913,7 +10913,7 @@
       "properties": {
         "name": "Many Point Scout Camp",
         "type": "council_camp",
-        "council": null,
+        "council": "Northern Star Council",
         "address": "41408 Many Point Scout Camp Rd, Ponsford, MN 56575",
         "city": "Ponsford",
         "state": "MN",
@@ -10934,7 +10934,7 @@
       "properties": {
         "name": "Norseland Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Viking Council",
         "address": "41556 370th St, St. Peter, MN 56082",
         "city": "Saint Peter",
         "state": "MN",
@@ -10955,7 +10955,7 @@
       "properties": {
         "name": "Parker Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Central Minnesota Council",
         "address": "21930 Paradise Dr, Nisswa, MN 56468",
         "city": "Nisswa",
         "state": "MN",
@@ -10976,7 +10976,7 @@
       "properties": {
         "name": "Phillippo Scout Reservation",
         "type": "council_camp",
-        "council": null,
+        "council": "Northern Star Council",
         "address": "30654 32nd Ave Way, Cannon Falls, MN 55009",
         "city": "Cannon Falls",
         "state": "MN",
@@ -10997,7 +10997,7 @@
       "properties": {
         "name": "Rum River Scout Camp",
         "type": "council_camp",
-        "council": null,
+        "council": "Northern Star Council",
         "address": "15659 Saint Francis Blvd NW, Ramsey, MN 55303",
         "city": "Anoka",
         "state": "MN",
@@ -11018,7 +11018,7 @@
       "properties": {
         "name": "Stearns Scout Camp",
         "type": "council_camp",
-        "council": null,
+        "council": "Northern Star Council",
         "address": "3303 County Road 44, South Haven, MN 55382",
         "city": "South Haven",
         "state": "MN",
