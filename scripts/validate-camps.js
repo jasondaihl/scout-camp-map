@@ -11,8 +11,9 @@ const path = require("path");
 
 const GEOJSON_PATH = path.join(__dirname, "..", "data", "camps.geojson");
 
-const REQUIRED_PROPS = ["name", "type", "website", "description"];
+const REQUIRED_PROPS = ["name", "type", "city", "country", "website", "description"];
 const VALID_TYPES = ["council_camp", "high_adventure", "council_high_adventure"];
+const COUNCIL_TYPES = ["council_camp", "council_high_adventure"];
 
 const data = JSON.parse(fs.readFileSync(GEOJSON_PATH, "utf8"));
 
@@ -43,17 +44,26 @@ data.features.forEach((feature, i) => {
     }
   });
 
-  // Must have either address or city/country for location
-  if (!props.address && !props.city && !props.country) {
-    console.error(`ERROR: ${label} (${props.state || "??"}) — missing location (needs "address" or "city")`);
-    errors++;
+  // Council and council high adventure camps must have a council
+  if (COUNCIL_TYPES.includes(props.type)) {
+    const council = props.council;
+    if (council === undefined || council === null || council === "") {
+      console.error(`ERROR: ${label} (${props.state || "??"}) — missing "council"`);
+      errors++;
+    }
   }
 
-  // Domestic camps must have a state
+  // Domestic camps must have a state and address
   const isInternational = props.country && props.country !== "USA";
-  if (!isInternational && !props.state) {
-    console.error(`ERROR: ${label} — missing "state" (domestic camp)`);
-    errors++;
+  if (!isInternational) {
+    if (!props.state) {
+      console.error(`ERROR: ${label} — missing "state" (domestic camp)`);
+      errors++;
+    }
+    if (!props.address) {
+      console.error(`ERROR: ${label} (${props.state || "??"}) — missing "address" (domestic camp)`);
+      errors++;
+    }
   }
 
   // Check type value
