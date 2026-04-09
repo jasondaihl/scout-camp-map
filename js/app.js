@@ -5,6 +5,8 @@
   var map = L.map("map").setView(defaultCenter, defaultZoom);
   var campData = null;
   var searchState = { lat: null, lng: null, radius: 50, displayName: null };
+  var searchOverlays = { circle: null, centerDot: null };
+  var campLayers = [];
 
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 18,
@@ -93,6 +95,59 @@
     var radiusMeters = radiusMiles * 1609.34;
     var center = L.latLng(lat, lng);
     map.fitBounds(center.toBounds(radiusMeters * 2), { padding: [20, 20] });
+  }
+
+  var dimStyle = { fillColor: "#aaa", fillOpacity: 0.2, color: "#999", weight: 1 };
+
+  function updateSearchOverlays() {
+    // Remove old overlays
+    if (searchOverlays.circle) map.removeLayer(searchOverlays.circle);
+    if (searchOverlays.centerDot) map.removeLayer(searchOverlays.centerDot);
+    searchOverlays.circle = null;
+    searchOverlays.centerDot = null;
+
+    if (searchState.lat === null) {
+      // Restore all markers
+      campLayers.forEach(function (item) {
+        item.layer.setStyle(markerStyles[item.type] || markerStyles.council_camp);
+      });
+      return;
+    }
+
+    var radiusMeters = searchState.radius * 1609.34;
+
+    // Draw radius circle
+    searchOverlays.circle = L.circle([searchState.lat, searchState.lng], {
+      radius: radiusMeters,
+      color: "#87a878",
+      weight: 2,
+      dashArray: "6 4",
+      fillColor: "rgba(61, 122, 85, 0.08)",
+      fillOpacity: 1,
+      interactive: false,
+      className: "search-radius-circle",
+    }).addTo(map);
+
+    // Draw center dot
+    searchOverlays.centerDot = L.circleMarker([searchState.lat, searchState.lng], {
+      radius: 6,
+      fillColor: "#c45a2d",
+      color: "#fff",
+      weight: 2,
+      fillOpacity: 0.9,
+      interactive: false,
+    }).addTo(map);
+
+    // Dim/highlight markers
+    campLayers.forEach(function (item) {
+      var coords = item.feature.geometry.coordinates;
+      var dist = haversineDistance(searchState.lat, searchState.lng, coords[1], coords[0]);
+      if (dist <= searchState.radius) {
+        item.layer.setStyle(markerStyles[item.type] || markerStyles.council_camp);
+      } else {
+        item.layer.setStyle(dimStyle);
+      }
+    });
   }
 
   /* ---- Location Search Control ---- */
@@ -194,6 +249,7 @@
         searchState.displayName = result.displayName;
         zoomToRadius(result.lat, result.lng, searchState.radius);
         updateBadge();
+        updateSearchOverlays();
       }
 
       function doSearch() {
@@ -219,6 +275,7 @@
         if (searchState.lat !== null) {
           zoomToRadius(searchState.lat, searchState.lng, searchState.radius);
           updateBadge();
+          updateSearchOverlays();
         }
       });
 
@@ -229,6 +286,7 @@
         input.value = "";
         resultRow.style.display = "none";
         map.setView(defaultCenter, defaultZoom);
+        updateSearchOverlays();
       });
 
       return container;
@@ -348,7 +406,9 @@
             var style =
               markerStyles[feature.properties.type] ||
               markerStyles.council_camp;
-            return L.circleMarker(latlng, style);
+            var marker = L.circleMarker(latlng, style);
+            campLayers.push({ layer: marker, type: feature.properties.type, feature: feature });
+            return marker;
           },
           onEachFeature: function (feature, layer) {
             layer.bindPopup(buildPopupHTML(feature.properties));
