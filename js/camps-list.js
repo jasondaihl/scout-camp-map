@@ -29,8 +29,10 @@
     return "council-camp";
   }
 
-  function buildCampCard(props, showCouncil) {
-    var html = '<div class="camp-card">';
+  function buildCampCard(props, showCouncil, index) {
+    var borderClass = "border-" + typeClass(props.type);
+    var delay = Math.min((index || 0) * 0.04, 0.6);
+    var html = '<div class="camp-card ' + borderClass + '" style="animation-delay:' + delay + 's">';
     html += '<div class="camp-card-header">';
     html += "<h3>" + props.name + "</h3>";
     if (props.logo) {
@@ -117,8 +119,8 @@
       .sort(function (a, b) {
         return a.name.localeCompare(b.name);
       })
-      .forEach(function (props) {
-        html += buildCampCard(props, showCouncil);
+      .forEach(function (props, i) {
+        html += buildCampCard(props, showCouncil, i);
       });
     html += "</div></section>";
     return html;

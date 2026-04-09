@@ -18,14 +18,14 @@
     },
     council_high_adventure: {
       radius: 8,
-      fillColor: "#9E9E9E",
+      fillColor: "#8a7d6b",
       color: "#333",
       weight: 1,
       fillOpacity: 0.85,
     },
     council_camp: {
       radius: 7,
-      fillColor: "#2E7D32",
+      fillColor: "#3d7a55",
       color: "#333",
       weight: 1,
       fillOpacity: 0.8,
@@ -102,9 +102,9 @@
     high_adventure:
       '<span class="legend-circle" style="width:16px;height:16px;background:#D4A017;"></span> National High Adventure Base',
     council_high_adventure:
-      '<span class="legend-circle" style="width:14px;height:14px;background:#9E9E9E;"></span> Council High Adventure Base',
+      '<span class="legend-circle" style="width:14px;height:14px;background:#8a7d6b;"></span> Council High Adventure Base',
     council_camp:
-      '<span class="legend-circle" style="width:12px;height:12px;background:#2E7D32;"></span> Council Camp',
+      '<span class="legend-circle" style="width:12px;height:12px;background:#3d7a55;"></span> Council Camp',
   };
 
   fetch("data/camps.geojson")
