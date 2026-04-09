@@ -179,6 +179,7 @@
         '<option value="25">25 mi</option>' +
         '<option value="50" selected>50 mi</option>' +
         '<option value="100">100 mi</option>' +
+        '<option value="150">150 mi</option>' +
         '<option value="200">200 mi</option>' +
         "</select>" +
         "</div>" +
