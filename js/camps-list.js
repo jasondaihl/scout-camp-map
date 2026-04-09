@@ -35,14 +35,6 @@
     var html = '<div class="camp-card ' + borderClass + '" style="animation-delay:' + delay + 's">';
     html += '<div class="camp-card-header">';
     html += "<h3>" + props.name + "</h3>";
-    if (props.logo) {
-      html +=
-        '<img class="camp-logo" src="' +
-        props.logo +
-        '" alt="' +
-        props.name +
-        ' logo">';
-    }
     html += "</div>";
     html +=
       '<span class="type-badge ' +

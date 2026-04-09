@@ -223,13 +223,6 @@ body.page-map {
   color: var(--forest);
 }
 
-.camp-logo {
-  max-height: 40px;
-  max-width: 40px;
-  object-fit: contain;
-  flex-shrink: 0;
-}
-
 .camp-popup .type-badge {
   display: inline-block;
   padding: 3px 10px;
